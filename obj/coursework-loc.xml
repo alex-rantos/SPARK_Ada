@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file />
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
@@ -18,7 +17,11 @@
       <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
       <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 6" >
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
     </file_marker>
