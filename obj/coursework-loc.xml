@@ -1,0 +1,733 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 16">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 20">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 18">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 18">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 46">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 14">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 30">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 20">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 72" line=" 25">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 27">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 32">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 29">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 30">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 31">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 25">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 27">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 29">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 30">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 31">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 32">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 25">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 29">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 30">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 27">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 29">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 30">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 31">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 18">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 27">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 31">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 32">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 18">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\stack\src\stack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 18">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 5">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 18">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 5">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 29">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 46">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 88">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 35">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 46">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 21">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 25">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 30">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 3">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 4">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 8">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 4">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 18">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 17">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 12">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 63" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 13">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 10">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 17">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\IntegerDiv\src\quotient.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 30">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 4">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 31">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 4">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 53">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 37">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 60">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 70">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 16">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\obj\gnatprove\Verification Condition</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 66">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 70">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 37">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 70">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 37">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 38">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 78">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 77">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 77">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 78">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 74">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 20">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 74">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 78">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 70">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 62">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 4">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 3">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 4">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 3">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 5">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 6">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 4">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\exchange\src\switcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 42">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40">
+      <vfs_project  />
+      <vfs_file >C:\Users\steve\Desktop\scratch\src\misc.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 23">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 36">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 11">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 36">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 2">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 11">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 10">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 17">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 23">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 13">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 17">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 23">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 23">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 67" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 23">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 19">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 19">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 20">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 14">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 13">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 35">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 75" line=" 30">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 32">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 64" line=" 28">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 30">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 28">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 32">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 64" line=" 33">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 26">
+      <vfs_project >C:\Users\steve\Desktop\coursework\coursework.gpr</vfs_project>
+      <vfs_file >C:\Users\steve\Desktop\coursework\src\exercises.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

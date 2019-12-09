@@ -1,0 +1,33 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U exercises%s		exercises.ads		5f5d0e42 EE OO PK IL
+
+D exercises.ads		20191201194224 5f5d0e42 exercises%s
+G a Z
+X 1 exercises.ads
+1K9*exercises 16l5 16e14
+3I12*Size{integer} 4r30
+4A9*SmallArray(integer)<integer> 12r31 14r43 14r64
+7U14*Calc 7>19 7<37
+7i19 Cost{integer}
+7i37 Result{integer}
+9U14*CalculateCharge 9>30 9<52
+9i30 Quantity{integer}
+9i52 Charge{integer}
+12U14*Modify 12=21 12>43 12>46
+12a21 A{4A9}
+12i43 B{integer}
+12i46 C{integer}
+14U14*MaskSequence 14=28 14>55
+14a28 Target{4A9}
+14a55 Mask{4A9}
+
