@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
@@ -30,9 +29,17 @@
       <vfs_project />
       <vfs_file>C:\Users\alexp\Downloads\stack\src\stack.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\alexp\Downloads\stack\src\test_stack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 36" >
+      <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\exercises.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\GNAT\2019\include\gpr\gpr.static\gpr_build_util.ads</vfs_file>
     </file_marker>
   </Project>
   <Project >

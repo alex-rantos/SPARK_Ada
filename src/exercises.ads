@@ -26,7 +26,7 @@ package exercises with SPARK_Mode is
    procedure Modify(A: in out SmallArray; B, C: in Integer)
      with
        Global => (In_out => A, Input => (B,C)),
-       Depends => (A => (B,C)),
+       Depends => (A => (A,B,C)),
        Pre => (B < Size'Max, C < Size'Max, B + C < Size'Max));
 
    procedure MaskSequence (Target: in out SmallArray; Mask: in SmallArray)
