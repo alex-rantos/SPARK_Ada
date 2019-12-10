@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
+  <Project>
+    <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
@@ -9,21 +10,29 @@
       <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
       <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\exercises.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
       <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\exercises.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 12" >
       <vfs_project>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_project>
-      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\main.adb</vfs_file>
+      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\src\exercises.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 6" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
+      <vfs_file>C:\Users\alexp\Downloads\stack\src\stack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\alexp\Downloads\stack\src\stack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\alexp\Downloads\stack\src\stack.ads</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\alexp\Downloads\coursework (1)\coursework.gpr</vfs_file>
+      <vfs_file>C:\Users\alexp\Downloads\stack\src\test_stack.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >
