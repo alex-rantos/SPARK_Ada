@@ -1,7 +1,7 @@
 package body exercises with SPARK_Mode is
 
    procedure Calc(Cost: in Integer; Result: out Integer) is
-      Charge: Integer;
+      Charge: Integer := -1;
    begin
       if Cost < 100 then
          Charge := Cost * 100;
@@ -15,7 +15,6 @@ package body exercises with SPARK_Mode is
       Charge := CostPence * Quantity;
    end CalculateCharge;
 
-
    procedure Modify(A: in out SmallArray; B, C: in Integer) is
    begin
       A(B+C) := 40;
@@ -26,10 +25,11 @@ package body exercises with SPARK_Mode is
    -- Mask element is 0, and keeps its original value otherwise.
    procedure MaskSequence (Target: in out SmallArray; Mask: in SmallArray) is
    begin
-      for I in Size loop
+      for I in Size'Range loop
+       --  pragma Loop_Invariant
+       --(for all I in A'First .. Size'Last => Target (I):=Target(I) * Mask(I));
          Target(I) := Target(I) * Mask(I);
       end loop;
    end MaskSequence;
-
 
 end exercises;
