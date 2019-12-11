@@ -26,8 +26,6 @@ package body exercises with SPARK_Mode is
    procedure MaskSequence (Target: in out SmallArray; Mask: in SmallArray) is
    begin
       for I in Size'Range loop
-       --  pragma Loop_Invariant
-       --(for all I in A'First .. Size'Last => Target (I):=Target(I) * Mask(I));
          Target(I) := Target(I) * Mask(I);
       end loop;
    end MaskSequence;

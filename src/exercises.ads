@@ -8,24 +8,23 @@ package exercises with SPARK_Mode is
        Global => null,
        Depends => (Result => Cost),
        Pre => (Cost < Integer'Last / 100 and then Cost > Integer'First / 100),
-     Post => (Result < Integer'Last and
-             (Result = -1 or Result = Cost * 100));
+     Post => (Result = -1 or Result = Cost * 100);
 
    procedure CalculateCharge(Quantity: in Integer; Charge: out Integer)
      with
        Global => null,
        Depends => (Charge => Quantity),
        Pre => (Quantity < Integer'Last / 5000 and Quantity > Integer'First/5000),
-       Post => (Charge < Integer'Last and Charge = Quantity * 5000);
+       Post => (Charge = Quantity * 5000);
 
 
    procedure Modify(A: in out SmallArray; B, C: in Integer)
      with
        Global => null,
        Depends => (A => (A,B,C)),
-       Pre => (B < Integer'Last and then C < Integer'Last and then
-                 B > Integer'First and then C > Integer'First and then
-              B + C < Size'Last) and B + C > Size'First,
+       Pre => ((C < Integer'First and B < Integer'First and B > Integer'Last and C > Integer'Last)
+               and then (B + C > Integer'First - Size'Last and B + C < Integer'Last + Size'Last)
+               and then (B + C > 0 and  B + C < Size'Last)) ,
      Post => ( A(B+C) = 40 );
 
    procedure MaskSequence (Target: in out SmallArray; Mask: in SmallArray)

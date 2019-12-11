@@ -2045,12 +2045,12 @@ module Exercises__smallarray
 
 end
 
-(* Module for defining the constant "cost" defined at exercises.ads:7, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "cost" defined at exercises.ads:6, created in Gnat2Why.Decls.Translate_Constant *)
 module Exercises__calc__cost
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val constant cost [#"exercises.ads" 7 0 0][@model_trace:2606] [@name:Cost] 
+ val constant cost [#"exercises.ads" 6 0 0][@name:Cost] [@model_trace:2572] 
    : int
 
  
@@ -2060,7 +2060,7 @@ module Exercises__calc__cost
 
 end
 
-(* Module giving an empty axiom for the entity "cost" defined at exercises.ads:7, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "cost" defined at exercises.ads:6, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__calc__cost___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2068,12 +2068,12 @@ module Exercises__calc__cost___axiom
 
 end
 
-(* Module for defining the constant "quantity" defined at exercises.ads:16, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "quantity" defined at exercises.ads:13, created in Gnat2Why.Decls.Translate_Constant *)
 module Exercises__calculatecharge__quantity
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val constant quantity [#"exercises.ads" 16 0 0][@model_trace:2669] [@name:Quantity] 
+ val constant quantity [#"exercises.ads" 13 0 0][@model_trace:2639] [@name:Quantity] 
    : int
 
  
@@ -2083,7 +2083,7 @@ module Exercises__calculatecharge__quantity
 
 end
 
-(* Module giving an empty axiom for the entity "quantity" defined at exercises.ads:16, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "quantity" defined at exercises.ads:13, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__calculatecharge__quantity___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2091,12 +2091,12 @@ module Exercises__calculatecharge__quantity___axiom
 
 end
 
-(* Module for defining the constant "b" defined at exercises.ads:23, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "b" defined at exercises.ads:21, created in Gnat2Why.Decls.Translate_Constant *)
 module Exercises__modify__b
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val constant b [#"exercises.ads" 23 0 0][@name:B] [@model_trace:2734] 
+ val constant b [#"exercises.ads" 21 0 0][@model_trace:2710] [@name:B] 
    : int
 
  
@@ -2106,7 +2106,7 @@ module Exercises__modify__b
 
 end
 
-(* Module giving an empty axiom for the entity "b" defined at exercises.ads:23, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "b" defined at exercises.ads:21, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__modify__b___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2114,12 +2114,12 @@ module Exercises__modify__b___axiom
 
 end
 
-(* Module for defining the constant "c" defined at exercises.ads:23, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "c" defined at exercises.ads:21, created in Gnat2Why.Decls.Translate_Constant *)
 module Exercises__modify__c
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val constant c [#"exercises.ads" 23 0 0][@model_trace:2741] [@name:C] 
+ val constant c [#"exercises.ads" 21 0 0][@model_trace:2717] [@name:C] 
    : int
 
  
@@ -2129,7 +2129,7 @@ module Exercises__modify__c
 
 end
 
-(* Module giving an empty axiom for the entity "c" defined at exercises.ads:23, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "c" defined at exercises.ads:21, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__modify__c___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2143,7 +2143,7 @@ module Exercises__masksequence__mask
  use        "int".Int
  use        Array__Int__Standard__integer as Array__Int__Standard__integer
 
- val constant mask [#"exercises.ads" 30 0 0][@name:Mask] [@model_trace:2839] [@model_projected] 
+ val constant mask [#"exercises.ads" 30 0 0][@name:Mask] [@model_trace:2832] [@model_projected] 
    : Array__Int__Standard__integer.map
 
  
@@ -2161,12 +2161,12 @@ module Exercises__masksequence__mask___axiom
 
 end
 
-(* Module for defining the constant "costpence" defined at exercises.adb:15, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "costpence" defined at exercises.adb:13, created in Gnat2Why.Decls.Translate_Constant *)
 module Exercises__calculatecharge__costpence
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val constant costpence [#"exercises.adb" 15 0 0][@model_trace:2390] [@name:CostPence] 
+ val constant costpence [#"exercises.adb" 13 0 0][@model_trace:2389] [@name:CostPence] 
    : int
 
  
@@ -2175,96 +2175,12 @@ module Exercises__calculatecharge__costpence
 
 
 end
-
-(* Module for axiomatizing type "T4b" defined at exercises.adb:31, created in Gnat2Why.Types.Translate_Type *)
-module Exercises__masksequence__L_1__L3b__T4b
- use        "_gnatprove_standard".Main
- use        "int".Int
- use        "int".Int
- use        Standard__integer as Standard__integer
- use        Standard__integer__rep as Standard__integer__rep
-
- type t4b =
-  Standard__integer.integer
- 
- predicate dynamic_property 
-   (first_int : int) (last_int : int) (x : int) =
-  ( (first_int <= x) /\ (x <= last_int) )
- val dynamic_property 
-   (first_int : int) (last_int : int) (x : int) : bool
-  ensures { result <-> dynamic_property (first_int : int) (last_int : int) (x : int) }
- 
- clone export "ada__model".Dynamic_Discrete with axiom .,
- type t = t4b, 
- type rep_type = int, 
- function base_to_rep = Standard__integer__rep.to_rep, 
- function base_of_rep = Standard__integer__rep.of_rep, 
- predicate dynamic_property = dynamic_property
- 
- type t4b__ref =
-  { mutable t4b__content : t4b }
- 
- function t4b__ref_t4b__content__projection 
-   (a : t4b__ref) : t4b =
-  a.t4b__content
- 
- meta "model_projection" function t4b__ref_t4b__content__projection
- 
- meta "inline:no" function t4b__ref_t4b__content__projection
- 
- val t4b__havoc 
-   (x : t4b__ref) : unit
-  writes {x}
-
-end
-
-(* Module for axiomatizing type "T2b" defined at exercises.adb:31, created in Gnat2Why.Types.Translate_Type *)
-module Exercises__masksequence__L_1__L1b__T2b
- use        "_gnatprove_standard".Main
- use        "int".Int
- use        "int".Int
- use        Standard__integer as Standard__integer
- use        Standard__integer__rep as Standard__integer__rep
-
- type t2b =
-  Standard__integer.integer
- 
- predicate dynamic_property 
-   (first_int : int) (last_int : int) (x : int) =
-  ( (first_int <= x) /\ (x <= last_int) )
- val dynamic_property 
-   (first_int : int) (last_int : int) (x : int) : bool
-  ensures { result <-> dynamic_property (first_int : int) (last_int : int) (x : int) }
- 
- clone export "ada__model".Dynamic_Discrete with axiom .,
- type t = t2b, 
- type rep_type = int, 
- function base_to_rep = Standard__integer__rep.to_rep, 
- function base_of_rep = Standard__integer__rep.of_rep, 
- predicate dynamic_property = dynamic_property
- 
- type t2b__ref =
-  { mutable t2b__content : t2b }
- 
- function t2b__ref_t2b__content__projection 
-   (a : t2b__ref) : t2b =
-  a.t2b__content
- 
- meta "model_projection" function t2b__ref_t2b__content__projection
- 
- meta "inline:no" function t2b__ref_t2b__content__projection
- 
- val t2b__havoc 
-   (x : t2b__ref) : unit
-  writes {x}
-
-end
-(* Module for defining a ref holding the value of variable "result" defined at exercises.ads:7, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "result" defined at exercises.ads:6, created in Gnat2Why.Decls.Translate_Variable *)
 module Exercises__calc__result
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val result__ [#"exercises.ads" 7 0 0][@model_projected] [@name:Result] [@model_trace:2615]  : int__ref 
+ val result__ [#"exercises.ads" 6 0 0][@model_trace:2581] [@model_projected] [@name:Result]  : int__ref 
  
  val constant attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2272,7 +2188,7 @@ module Exercises__calc__result
 
 end
 
-(* Module giving an empty axiom for the entity "result" defined at exercises.ads:7, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "result" defined at exercises.ads:6, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__calc__result___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2280,12 +2196,12 @@ module Exercises__calc__result___axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "charge" defined at exercises.ads:16, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "charge" defined at exercises.ads:13, created in Gnat2Why.Decls.Translate_Variable *)
 module Exercises__calculatecharge__charge
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val charge [#"exercises.ads" 16 0 0][@model_trace:2678] [@model_projected] [@name:Charge]  : int__ref 
+ val charge [#"exercises.ads" 13 0 0][@model_trace:2648] [@model_projected] [@name:Charge]  : int__ref 
  
  val constant attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2293,7 +2209,7 @@ module Exercises__calculatecharge__charge
 
 end
 
-(* Module giving an empty axiom for the entity "charge" defined at exercises.ads:16, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "charge" defined at exercises.ads:13, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__calculatecharge__charge___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2301,13 +2217,13 @@ module Exercises__calculatecharge__charge___axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "a" defined at exercises.ads:23, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "a" defined at exercises.ads:21, created in Gnat2Why.Decls.Translate_Variable *)
 module Exercises__modify__a
  use        "_gnatprove_standard".Main
  use        "int".Int
  use        Array__Int__Standard__integer as Array__Int__Standard__integer
 
- val a [#"exercises.ads" 23 0 0][@model_trace:2725] [@model_projected] [@name:A]  : Array__Int__Standard__integer.map__ref 
+ val a [#"exercises.ads" 21 0 0][@model_projected] [@name:A] [@model_trace:2701]  : Array__Int__Standard__integer.map__ref 
  
  val constant attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2315,7 +2231,7 @@ module Exercises__modify__a
 
 end
 
-(* Module giving an empty axiom for the entity "a" defined at exercises.ads:23, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "a" defined at exercises.ads:21, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__modify__a___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2329,7 +2245,7 @@ module Exercises__masksequence__target
  use        "int".Int
  use        Array__Int__Standard__integer as Array__Int__Standard__integer
 
- val target [#"exercises.ads" 30 0 0][@model_trace:2830] [@model_projected] [@name:Target]  : Array__Int__Standard__integer.map__ref 
+ val target [#"exercises.ads" 30 0 0][@model_projected] [@name:Target] [@model_trace:2823]  : Array__Int__Standard__integer.map__ref 
  
  val constant attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2366,12 +2282,12 @@ module Exercises__calc__charge___axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "i" defined at exercises.adb:30, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "i" defined at exercises.adb:28, created in Gnat2Why.Decls.Translate_Variable *)
 module Exercises__masksequence__L_1__i
  use        "_gnatprove_standard".Main
  use        "int".Int
 
- val i [#"exercises.adb" 30 0 0][@model_projected] [@name:I] [@model_trace:2485]  : int__ref 
+ val i [#"exercises.adb" 28 0 0][@model_projected] [@name:I] [@model_trace:2484]  : int__ref 
  
  val constant attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2379,7 +2295,7 @@ module Exercises__masksequence__L_1__i
 
 end
 
-(* Module giving an empty axiom for the entity "i" defined at exercises.adb:30, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "i" defined at exercises.adb:28, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__masksequence__L_1__i___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2897,7 +2813,7 @@ module Standard__universal_integer___axiom
 
 end
 
-(* Module for possibly declaring a logic function for "calc" defined at exercises.ads:7, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "calc" defined at exercises.ads:6, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Exercises__calc
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2905,7 +2821,7 @@ module Exercises__calc
 
 end
 
-(* Module for possibly declaring a logic function for "calculatecharge" defined at exercises.ads:16, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "calculatecharge" defined at exercises.ads:13, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Exercises__calculatecharge
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2913,7 +2829,7 @@ module Exercises__calculatecharge
 
 end
 
-(* Module for possibly declaring a logic function for "modify" defined at exercises.ads:23, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "modify" defined at exercises.ads:21, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Exercises__modify
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2929,7 +2845,7 @@ module Exercises__masksequence
 
 end
 
-(* Module for defining the loop exit exception for the loop "L_1" defined at exercises.adb:30, created in Gnat2Why.Decls.Translate_Loop_Entity *)
+(* Module for defining the loop exit exception for the loop "L_1" defined at exercises.adb:28, created in Gnat2Why.Decls.Translate_Loop_Entity *)
 module Exercises__masksequence__L_1
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -2938,7 +2854,7 @@ module Exercises__masksequence__L_1
 
 end
 
-(* Module giving an empty axiom for the entity "L_1" defined at exercises.adb:30, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "L_1" defined at exercises.adb:28, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Exercises__masksequence__L_1___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -3000,23 +2916,7 @@ module Exercises__smallarray___axiom
   ensures { result <-> default_initial_assumption (temp___expr_168 : Array__Int__Standard__integer.map) (temp___skip_top_level_169 : bool) }
 
 end
-
-(* Module giving axioms for type "T4b" defined at exercises.adb:31, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Exercises__masksequence__L_1__L3b__T4b___axiom
- use        "_gnatprove_standard".Main
- use        "int".Int
-
-
-end
-
-(* Module giving axioms for type "T2b" defined at exercises.adb:31, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Exercises__masksequence__L_1__L1b__T2b___axiom
- use        "_gnatprove_standard".Main
- use        "int".Int
-
-
-end
-(* Module for defining the value of constant "costpence" defined at exercises.adb:15, created in Gnat2Why.Decls.Translate_Constant_Value *)
+(* Module for defining the value of constant "costpence" defined at exercises.adb:13, created in Gnat2Why.Decls.Translate_Constant_Value *)
 module Exercises__calculatecharge__costpence___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -3028,26 +2928,22 @@ module Exercises__calculatecharge__costpence___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "calc" defined at exercises.ads:7, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "calc" defined at exercises.ads:6, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Exercises__calc___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
  use        "int".Int
- use        "_gnatprove_standard".Integer as Integer
  use        Standard__integer___axiom as Standard__integer___axiom
 
  val calc 
    (cost : int) (result__ : int__ref) : unit
-  requires {  ( [@GP_Pretty_Ada:2957] (cost >= (0 : int)) ) }
-  ensures {  ( (if (((old (Integer.bool_lt cost (100 : int)) ) = True)) then (
-   (result__.int__content = (cost * (100 : int)))) else ((if (((old (Integer.bool_ge cost (100 : int)) ) = True)) then (
-   (result__.int__content = (0 : int))) else (
-   true)))) /\ (Standard__integer___axiom.dynamic_invariant result__.int__content True True True True) ) }
+  requires {  ( ( [@GP_Pretty_Ada:2607] (cost < (21474836 : int)) ) /\ ( [@GP_Pretty_Ada:2615] (cost > (( -21474836) : int)) ) ) }
+  ensures {  ( ( [@GP_Pretty_Ada:3008] ( (result__.int__content = (( -1) : int)) \/ (result__.int__content = (cost * (100 : int))) ) ) /\ (Standard__integer___axiom.dynamic_invariant result__.int__content True True True True) ) }
   writes {result__}
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "calculatecharge" defined at exercises.ads:16, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "calculatecharge" defined at exercises.ads:13, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Exercises__calculatecharge___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -3056,13 +2952,13 @@ module Exercises__calculatecharge___axiom
 
  val calculatecharge 
    (quantity : int) (charge : int__ref) : unit
-  requires {  ( ( [@GP_Pretty_Ada:2701] (quantity < (429496 : int)) ) /\ ( [@GP_Pretty_Ada:2709] (quantity >= (0 : int)) ) ) }
-  ensures {  ( ( [@GP_Pretty_Ada:3025] (charge.int__content = ((5000 : int) * quantity)) ) /\ (Standard__integer___axiom.dynamic_invariant charge.int__content True True True True) ) }
+  requires {  ( ( [@GP_Pretty_Ada:2674] (quantity < (429496 : int)) ) /\ ( [@GP_Pretty_Ada:2682] (quantity > (( -429496) : int)) ) ) }
+  ensures {  ( ( [@GP_Pretty_Ada:3070] (charge.int__content = (quantity * (5000 : int))) ) /\ (Standard__integer___axiom.dynamic_invariant charge.int__content True True True True) ) }
   writes {charge}
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "modify" defined at exercises.ads:23, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "modify" defined at exercises.ads:21, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Exercises__modify___axiom
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -3075,13 +2971,8 @@ module Exercises__modify___axiom
 
  val modify 
    (a : Array__Int__Standard__integer.map__ref) (b : int) (c : int) : unit
-  requires {  ( ( ( ( [@GP_Pretty_Ada:2769] (b > (0 : int)) ) /\ ( [@GP_Pretty_Ada:2773] (c > (0 : int)) ) ) /\ ( [@GP_Pretty_Ada:2777] (b >= ((1 : int) - c)) ) ) /\ ( [@GP_Pretty_Ada:2783] (b <= ((20 : int) - c)) ) ) }
-  ensures {  ( ( ( [@GP_Pretty_Ada:2795] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get a.Array__Int__Standard__integer.map__content (b + c))) = (40 : int)) ) /\ (forall i   [@model_trace:2798] [@name:I]  : int.
-   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> (if (not ( (i = (b + c)) )) then (
-    ( [@GP_Pretty_Ada:2817] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get a.Array__Int__Standard__integer.map__content i)) = (Standard__integer__rep.to_rep (let temp___172 [@mlw:proxy_symbol] [@introduced] = (old a.Array__Int__Standard__integer.map__content ) in (
-     (Array__Int__Standard__integer.get temp___172 i)))
-    )) )) else (
-    ( [@GP_Pretty_Ada:3217] true ))) )) ) /\ (Exercises__smallarray___axiom.dynamic_invariant a.Array__Int__Standard__integer.map__content True True True True) ) }
+  requires {  ( ( ( ( ( ( [@GP_Pretty_Ada:2748] (c < (( -2147483648) : int)) ) /\ ( [@GP_Pretty_Ada:2754] (b < (( -2147483648) : int)) ) ) /\ ( [@GP_Pretty_Ada:2760] (b > (2147483647 : int)) ) ) /\ ( [@GP_Pretty_Ada:2766] (c > (2147483647 : int)) ) ) /\ ( ( [@GP_Pretty_Ada:2774] ((b + c) > (( -2147483668) : int)) ) /\ ( [@GP_Pretty_Ada:2786] ((b + c) < (2147483667 : int)) ) ) ) /\ ( ( [@GP_Pretty_Ada:2798] ((b + c) > (0 : int)) ) /\ ( [@GP_Pretty_Ada:2804] ((b + c) < (20 : int)) ) ) ) }
+  ensures {  ( ( [@GP_Pretty_Ada:3176] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get a.Array__Int__Standard__integer.map__content (b + c))) = (40 : int)) ) /\ (Exercises__smallarray___axiom.dynamic_invariant a.Array__Int__Standard__integer.map__content True True True True) ) }
   writes {a}
 
 end
@@ -3100,12 +2991,10 @@ module Exercises__masksequence___axiom
 
  val masksequence 
    (target : Array__Int__Standard__integer.map__ref) (mask : Array__Int__Standard__integer.map) : unit
-  requires {  (forall i   [@model_trace:2863] [@name:I]  : int.
-   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Pretty_Ada:2878] ( ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get mask i)) = (0 : int)) \/ ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get mask i)) = (1 : int)) ) ) )) }
-  ensures {  ( (forall i   [@name:I] [@model_trace:2886]  : int.
-   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Pretty_Ada:2899] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get target.Array__Int__Standard__integer.map__content i)) = ((Standard__integer__rep.to_rep (let temp___175 [@mlw:proxy_symbol] [@introduced] = (old target.Array__Int__Standard__integer.map__content ) in (
-    (Array__Int__Standard__integer.get temp___175 i)))
-   ) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get mask i)))) ) )) /\ (Exercises__smallarray___axiom.dynamic_invariant target.Array__Int__Standard__integer.map__content True True True True) ) }
+  requires {  ( ( [@GP_Pretty_Ada:2865] false ) /\ (forall i   [@model_trace:2873] [@name:I]  : int.
+   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( ( [@GP_Pretty_Ada:2887] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get target.Array__Int__Standard__integer.map__content i)) < (2147483647 : int)) ) /\ ( [@GP_Pretty_Ada:2897] ( ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get mask i)) = (1 : int)) \/ ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get mask i)) = (0 : int)) ) ) ) )) ) }
+  ensures {  ( (forall i   [@model_trace:2905] [@name:I]  : int.
+   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Pretty_Ada:2919] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get target.Array__Int__Standard__integer.map__content i)) = ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get target.Array__Int__Standard__integer.map__content i)) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get mask i)))) ) )) /\ (Exercises__smallarray___axiom.dynamic_invariant target.Array__Int__Standard__integer.map__content True True True True) ) }
   writes {target}
 
 end
@@ -3123,19 +3012,23 @@ module Exercises__package_def
   ([#"exercises.ads" 1 0 0] ());
   ([#"exercises.ads" 3 0 0] ());
   ([#"exercises.ads" 4 0 0] ());
-  ([#"exercises.ads" 7 0 0] ());
+  ([#"exercises.ads" 6 0 0] ());
   ([#"exercises.ads" 11 0 0] ());
   ([#"exercises.ads" 10 0 0] ());
   ([#"exercises.ads" 9 0 0] ());
-  ([#"exercises.ads" 16 0 0] ());
-  ([#"exercises.ads" 20 0 0] ());
-  ([#"exercises.ads" 19 0 0] ());
+  ([#"exercises.ads" 8 0 0] ());
+  ([#"exercises.ads" 13 0 0] ());
   ([#"exercises.ads" 18 0 0] ());
-  ([#"exercises.ads" 23 0 0] ());
-  ([#"exercises.ads" 27 0 0] ());
-  ([#"exercises.ads" 26 0 0] ());
+  ([#"exercises.ads" 17 0 0] ());
+  ([#"exercises.ads" 16 0 0] ());
+  ([#"exercises.ads" 15 0 0] ());
+  ([#"exercises.ads" 21 0 0] ());
+  ([#"exercises.ads" 28 0 0] ());
   ([#"exercises.ads" 25 0 0] ());
+  ([#"exercises.ads" 24 0 0] ());
+  ([#"exercises.ads" 23 0 0] ());
   ([#"exercises.ads" 30 0 0] ());
+  ([#"exercises.ads" 38 0 0] ());
   ([#"exercises.ads" 34 0 0] ());
   ([#"exercises.ads" 33 0 0] ());
   ([#"exercises.ads" 32 0 0] ());
@@ -3145,21 +3038,21 @@ module Exercises__package_def
   ([#"exercises.ads" 32 0 0] ());
   ();
   ([#"exercises.adb" 1 0 0] ());
-  ([#"exercises.adb" 4 0 0] ());
-  ([#"exercises.adb" 14 0 0] ());
-  ([#"exercises.adb" 21 0 0] ());
-  ([#"exercises.adb" 28 0 0] ());
+  ([#"exercises.adb" 3 0 0] ());
+  ([#"exercises.adb" 12 0 0] ());
+  ([#"exercises.adb" 18 0 0] ());
+  ([#"exercises.adb" 26 0 0] ());
   ();
-  ( [@GP_Sloc:exercises.adb:37:1] ([#"exercises.adb" 37 0 0] ()) ) )
+  ( [@GP_Sloc:exercises.adb:33:1] ([#"exercises.adb" 33 0 0] ()) ) )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "calc" defined at exercises.ads:7, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "calc" defined at exercises.ads:6, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Exercises__calc__subprogram_def
  use        "_gnatprove_standard".Main
  use        "int".Int
  use        "int".Int
  use        "_gnatprove_standard".Main as Main
- use        "_gnatprove_standard".Integer as Integer
+ use        "_gnatprove_standard".Boolean as Boolean
  use        Standard__integer as Standard__integer
  use        Standard__integer___axiom as Standard__integer___axiom
  use        Exercises__calc__cost as Exercises__calc__cost
@@ -3171,89 +3064,48 @@ module Exercises__calc__subprogram_def
  use        Exercises__calc__cost___axiom as Exercises__calc__cost___axiom
  use        Exercises__calc__result___axiom as Exercises__calc__result___axiom
 
- let def [#"exercises.ads" 7 0 0][@GP_Subp:exercises.ads:7] 
+ let def [#"exercises.ads" 6 0 0][@GP_Subp:exercises.ads:6] 
    (__void_param : unit)
-  requires { [#"exercises.ads" 7 0 0] true }
+  requires { [#"exercises.ads" 6 0 0] true }
+  ensures { [#"exercises.ads" 6 0 0] ([#"exercises.ads" 11 0 0] ( [@GP_Reason:VC_POSTCONDITION] [@GP_Sloc:exercises.ads:11:14] [@GP_Shape:pragargs__or] [@model_vc_post] [@GP_Id:2] [@comment:     Post => (Result = -1 or Result = Cost * 100);              ^ exercises.ads:11:14:VC_POSTCONDITION] ( [@GP_Sloc:exercises.ads:11:14] [@GP_Pretty_Ada:3008] ( (Exercises__calc__result.result__.int__content = (( -1) : int)) \/ (Exercises__calc__result.result__.int__content = (Exercises__calc__cost.cost * (100 : int))) ) ) )) }
    = [@vc:divergent]
-  ( () (* Assume dynamic invariants of inputs of the subprogram exercises.ads:7 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram exercises.ads:6 *)
   ;
-  [#"exercises.ads" 7 0 0] assume { [#"exercises.ads" 7 0 0] (Standard__integer___axiom.dynamic_invariant Exercises__calc__cost.cost True False True True) };
-  [#"exercises.ads" 7 0 0] assume { [#"exercises.ads" 7 0 0] (Standard__integer___axiom.dynamic_invariant Exercises__calc__result.result__.int__content False False True True) };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram exercises.ads:7 *)
+   assume {  (Standard__integer___axiom.dynamic_invariant Exercises__calc__cost.cost True False True True) };
+   assume {  (Standard__integer___axiom.dynamic_invariant Exercises__calc__result.result__.int__content False False True True) };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram exercises.ads:6 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram exercises.ads:7 *)
+  () (* Check for RTE in the Pre of the subprogram exercises.ads:6 *)
   ;
-  [#"exercises.ads" 7 0 0] begin ensures {true} let _ = (let _ = (Exercises__calc__cost.cost >= (0 : int)) in (
+   begin ensures {true} let _ = (let _ = ( (Exercises__calc__cost.cost < (21474836 : int)) && (Exercises__calc__cost.cost > (( -21474836) : int)) ) in (
    ()))
    in () end ;
-  () (* Assume Pre of the subprogram exercises.ads:7 *)
+  () (* Assume Pre of the subprogram exercises.ads:6 *)
   ;
-  [#"exercises.ads" 7 0 0] assume { [#"exercises.ads" 7 0 0] ( [@GP_Pretty_Ada:2957] (Exercises__calc__cost.cost >= (0 : int)) ) };
-  [#"exercises.ads" 7 0 0] begin ensures {true} let _ = (let _ = (Exercises__calc__cost.cost < (100 : int)) in (
+   assume {  ( ( [@GP_Pretty_Ada:2607] (Exercises__calc__cost.cost < (21474836 : int)) ) /\ ( [@GP_Pretty_Ada:2615] (Exercises__calc__cost.cost > (( -21474836) : int)) ) ) };
+   try
+   ( ();
+   ([#"exercises.adb" 4 0 0] ( [#"exercises.adb" 4 0 0] (Exercises__calc__charge.charge.int__content <- ( (( -1) : int) ));
+   [#"exercises.adb" 4 0 0] assume { [#"exercises.adb" 4 0 0] (Standard__integer___axiom.dynamic_invariant Exercises__calc__charge.charge.int__content True False True True) } ));
+   ();
+   ( [@GP_Sloc:exercises.adb:6:7] ([#"exercises.adb" 6 0 0] (if (( ([#"exercises.adb" 6 0 0] [#"exercises.adb" 6 0 0] (([@branch_id=2347] Main.spark__branch).bool__content <- ( (Exercises__calc__cost.cost < (100 : int)) )));
+   ( [@branch_id=2347] Main.spark__branch ).bool__content )) then (
+    ( ();
+    ( [@GP_Sloc:exercises.adb:7:10] ([#"exercises.adb" 7 0 0] ()) );
+    ( [@GP_Sloc:exercises.adb:7:17] ([#"exercises.adb" 7 0 0] [#"exercises.adb" 7 0 0] (Exercises__calc__charge.charge.int__content <- ( ([#"exercises.adb" 7 0 0] ( [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Shape:if__charge_assign__mult] [@comment:         Charge := Cost * 100;                         ^ exercises.adb:7:25:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.adb:7:25] [@GP_Id:0] (Standard__integer.range_check_((Exercises__calc__cost.cost * (100 : int)))) )) ))) ) )) else (
+    ()))) );
+   ( [@GP_Sloc:exercises.adb:9:17] ([#"exercises.adb" 9 0 0] ()) );
+   ( [@GP_Sloc:exercises.adb:9:14] ([#"exercises.adb" 9 0 0] [#"exercises.adb" 9 0 0] (Exercises__calc__result.result__.int__content <- ( Exercises__calc__charge.charge.int__content ))) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   begin ensures {true} let _ = (let _ = (Boolean.orb((Exercises__calc__result.result__.int__content = (( -1) : int))) ((Exercises__calc__result.result__.int__content = ([#"exercises.ads" 11 0 0] ( [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.ads:11:44] [@comment:     Post => (Result = -1 or Result = Cost * 100);                                            ^ exercises.ads:11:44:VC_OVERFLOW_CHECK] [@GP_Id:1] [@GP_Shape:pragargs__or__cmp__mult] (Standard__integer.range_check_((Exercises__calc__cost.cost * (100 : int)))) ))))) in (
    ()))
-   in () end ;
-  (let temp___179 [@mlw:proxy_symbol] [@introduced] = [#"exercises.ads" 7 0 0] (val _f : bool
-  ensures {[#"exercises.ads" 7 0 0] (result = (Integer.bool_lt Exercises__calc__cost.cost (100 : int)))} 
-  in _f) in (
-   ( [#"exercises.ads" 7 0 0] begin ensures {true} let _ = (let _ = (Exercises__calc__cost.cost >= (100 : int)) in (
-    ()))
-    in () end ;
-   (let temp___180 [@mlw:proxy_symbol] [@introduced] = [#"exercises.ads" 7 0 0] (val _f : bool
-   ensures {[#"exercises.ads" 7 0 0] (result = (Integer.bool_ge Exercises__calc__cost.cost (100 : int)))} 
-   in _f) in (
-    ( [#"exercises.ads" 7 0 0] begin ensures {true} let _ = (let _ = ( [#"exercises.ads" 7 0 0] check { [#"exercises.ads" 7 0 0] ([#"exercises.ads" 11 0 0] ( [@vc:annotation] [@GP_Reason:VC_DISJOINT_CONTRACT_CASES] [@GP_Sloc:exercises.ads:11:6] [@comment:     Contract_Cases =>      ^ exercises.ads:11:6:VC_DISJOINT_CONTRACT_CASES] [@GP_Id:0] ((((0 : int) + (if ((temp___179 = True)) then (
-     (1 : int)) else (
-     (0 : int)))) + (if ((temp___180 = True)) then (
-     (1 : int)) else (
-     (0 : int)))) <= (1 : int)) )) };
-     check {  ([#"exercises.ads" 11 0 0] ( [@GP_Reason:VC_COMPLETE_CONTRACT_CASES] [@vc:annotation] [@comment:     Contract_Cases =>      ^ exercises.ads:11:6:VC_COMPLETE_CONTRACT_CASES] [@GP_Sloc:exercises.ads:11:6] [@GP_Id:1] ((((0 : int) + (if ((temp___179 = True)) then (
-     (1 : int)) else (
-     (0 : int)))) + (if ((temp___180 = True)) then (
-     (1 : int)) else (
-     (0 : int)))) >= (1 : int)) )) } ) in (
-     ()))
-     in () end ;
-     try
-     ( ();
-     ([#"exercises.adb" 4 0 0] ( [#"exercises.adb" 4 0 0] assume { [#"exercises.adb" 4 0 0] (Standard__integer___axiom.default_initial_assumption Exercises__calc__charge.charge.int__content False) };
-     [#"exercises.adb" 4 0 0] assume { [#"exercises.adb" 4 0 0] (Standard__integer___axiom.dynamic_invariant Exercises__calc__charge.charge.int__content False False True True) } ));
-     ();
-     ( [@GP_Sloc:exercises.adb:7:7] ([#"exercises.adb" 7 0 0] ()) );
-     ( [@GP_Sloc:exercises.adb:7:14] ([#"exercises.adb" 7 0 0] [#"exercises.adb" 7 0 0] (Exercises__calc__charge.charge.int__content <- ( (0 : int) ))) );
-     ( [@GP_Sloc:exercises.adb:8:7] ([#"exercises.adb" 8 0 0] (if (( ([#"exercises.adb" 8 0 0] [#"exercises.adb" 8 0 0] (([@branch_id=2348] Main.spark__branch).bool__content <- ( (Exercises__calc__cost.cost < (100 : int)) )));
-     ( [@branch_id=2348] Main.spark__branch ).bool__content )) then (
-      ( ();
-      ( [@GP_Sloc:exercises.adb:9:10] ([#"exercises.adb" 9 0 0] ()) );
-      ( [@GP_Sloc:exercises.adb:9:17] ([#"exercises.adb" 9 0 0] [#"exercises.adb" 9 0 0] (Exercises__calc__charge.charge.int__content <- ( ([#"exercises.adb" 9 0 0] ( [@comment:         Charge := Cost * 100;                         ^ exercises.adb:9:25:VC_OVERFLOW_CHECK] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Shape:if__charge_assign__mult] [@GP_Sloc:exercises.adb:9:25] [@GP_Id:2] (Standard__integer.range_check_((Exercises__calc__cost.cost * (100 : int)))) )) ))) ) )) else (
-      ()))) );
-     ( [@GP_Sloc:exercises.adb:11:17] ([#"exercises.adb" 11 0 0] ()) );
-     ( [@GP_Sloc:exercises.adb:11:14] ([#"exercises.adb" 11 0 0] [#"exercises.adb" 11 0 0] (Exercises__calc__result.result__.int__content <- ( Exercises__calc__charge.charge.int__content ))) );
-      raise Return__exc )
-    with
-     Return__exc -> ()
-    end;
-     begin ensures {true} let _ = (let _ = True in (
-     ()))
-     in () end ;
-     begin ensures {true} let _ = (let _ = (if (temp___179) then (
-     (Exercises__calc__result.result__.int__content = ([#"exercises.ads" 12 0 0] ( [@GP_Sloc:exercises.ads:12:37] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Shape:pragargs__aggr__cmp__mult] [@GP_Id:3] [@comment:       (Cost < 100 => Result = Cost * 100,                                     ^ exercises.ads:12:37:VC_OVERFLOW_CHECK] (Standard__integer.range_check_((Exercises__calc__cost.cost * (100 : int)))) )))) else (
-     True)) in (
-     ()))
-     in () end ;
-     assert {  ([#"exercises.ads" 12 0 0] ( [@GP_Sloc:exercises.ads:12:20] [@GP_Reason:VC_CONTRACT_CASE] [@vc:annotation] [@comment:       (Cost < 100 => Result = Cost * 100,                    ^ exercises.ads:12:20:VC_CONTRACT_CASE] [@GP_Id:4] [@GP_Shape:pragargs__aggr] (if ((temp___179 = True)) then (
-     (Exercises__calc__result.result__.int__content = (Exercises__calc__cost.cost * (100 : int)))) else true) )) };
-     begin ensures {true} let _ = (let _ = (if (temp___180) then (
-     (Exercises__calc__result.result__.int__content = (0 : int))) else (
-     True)) in (
-     ()))
-     in () end ;
-     assert {  ([#"exercises.ads" 13 0 0] ( [@GP_Reason:VC_CONTRACT_CASE] [@vc:annotation] [@GP_Sloc:exercises.ads:13:21] [@GP_Id:5] [@comment:        Cost >= 100 => Result = 0);                     ^ exercises.ads:13:21:VC_CONTRACT_CASE] [@GP_Shape:pragargs__aggr] (if ((temp___180 = True)) then (
-     (Exercises__calc__result.result__.int__content = (0 : int))) else true) )) } )))
-    )))
-   )
+   in () end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "calculatecharge" defined at exercises.ads:16, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "calculatecharge" defined at exercises.ads:13, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Exercises__calculatecharge__subprogram_def
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -3270,43 +3122,43 @@ module Exercises__calculatecharge__subprogram_def
  use        Exercises__calculatecharge__quantity___axiom as Exercises__calculatecharge__quantity___axiom
  use        Exercises__calculatecharge__charge___axiom as Exercises__calculatecharge__charge___axiom
 
- let def [#"exercises.ads" 16 0 0][@GP_Subp:exercises.ads:16] 
+ let def [#"exercises.ads" 13 0 0][@GP_Subp:exercises.ads:13] 
    (__void_param : unit)
-  requires { [#"exercises.ads" 16 0 0] true }
-  ensures { [#"exercises.ads" 16 0 0] ([#"exercises.ads" 20 0 0] ( [@GP_Reason:VC_POSTCONDITION] [@GP_Shape:pragargs__cmp] [@comment:     Post => Charge = 5000 * Quantity;              ^ exercises.ads:20:14:VC_POSTCONDITION] [@model_vc_post] [@GP_Sloc:exercises.ads:20:14] [@GP_Id:8] ( [@GP_Pretty_Ada:3025] [@GP_Sloc:exercises.ads:20:14] (Exercises__calculatecharge__charge.charge.int__content = ((5000 : int) * Exercises__calculatecharge__quantity.quantity)) ) )) }
+  requires { [#"exercises.ads" 13 0 0] true }
+  ensures { [#"exercises.ads" 13 0 0] ([#"exercises.ads" 18 0 0] ( [@GP_Reason:VC_POSTCONDITION] [@comment:       Post => (Charge = Quantity * 5000);                ^ exercises.ads:18:16:VC_POSTCONDITION] [@GP_Sloc:exercises.ads:18:16] [@GP_Shape:pragargs__cmp] [@model_vc_post] [@GP_Id:5] ( [@GP_Sloc:exercises.ads:18:16] [@GP_Pretty_Ada:3070] (Exercises__calculatecharge__charge.charge.int__content = (Exercises__calculatecharge__quantity.quantity * (5000 : int))) ) )) }
    = [@vc:divergent]
-  ( () (* Assume dynamic invariants of inputs of the subprogram exercises.ads:16 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram exercises.ads:13 *)
   ;
    assume {  (Standard__integer___axiom.dynamic_invariant Exercises__calculatecharge__quantity.quantity True False True True) };
    assume {  (Standard__integer___axiom.dynamic_invariant Exercises__calculatecharge__charge.charge.int__content False False True True) };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram exercises.ads:16 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram exercises.ads:13 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram exercises.ads:16 *)
+  () (* Check for RTE in the Pre of the subprogram exercises.ads:13 *)
   ;
-   begin ensures {true} let _ = (let _ = (Boolean.andb((Exercises__calculatecharge__quantity.quantity < (429496 : int))) ((Exercises__calculatecharge__quantity.quantity >= (0 : int)))) in (
+   begin ensures {true} let _ = (let _ = (Boolean.andb((Exercises__calculatecharge__quantity.quantity < (429496 : int))) ((Exercises__calculatecharge__quantity.quantity > (( -429496) : int)))) in (
    ()))
    in () end ;
-  () (* Assume Pre of the subprogram exercises.ads:16 *)
+  () (* Assume Pre of the subprogram exercises.ads:13 *)
   ;
-   assume {  ( ( [@GP_Pretty_Ada:2701] (Exercises__calculatecharge__quantity.quantity < (429496 : int)) ) /\ ( [@GP_Pretty_Ada:2709] (Exercises__calculatecharge__quantity.quantity >= (0 : int)) ) ) };
+   assume {  ( ( [@GP_Pretty_Ada:2674] (Exercises__calculatecharge__quantity.quantity < (429496 : int)) ) /\ ( [@GP_Pretty_Ada:2682] (Exercises__calculatecharge__quantity.quantity > (( -429496) : int)) ) ) };
    try
    ( ();
-   ([#"exercises.adb" 15 0 0] ( [#"exercises.adb" 15 0 0] begin ensures {true} let _ = (let _ = (5000 : int) in (
+   ([#"exercises.adb" 13 0 0] ( [#"exercises.adb" 13 0 0] begin ensures {true} let _ = (let _ = (5000 : int) in (
     ()))
     in () end ;
-   [#"exercises.adb" 15 0 0] assume { [#"exercises.adb" 15 0 0] (Standard__integer___axiom.dynamic_invariant Exercises__calculatecharge__costpence.costpence True False True True) } ));
+   [#"exercises.adb" 13 0 0] assume { [#"exercises.adb" 13 0 0] (Standard__integer___axiom.dynamic_invariant Exercises__calculatecharge__costpence.costpence True False True True) } ));
    ();
-   ( [@GP_Sloc:exercises.adb:17:14] ([#"exercises.adb" 17 0 0] [#"exercises.adb" 17 0 0] (Exercises__calculatecharge__charge.charge.int__content <- ( ([#"exercises.adb" 17 0 0] ( [@GP_Shape:charge_assign__mult] [@comment:      Charge := CostPence * Quantity;                           ^ exercises.adb:17:27:VC_OVERFLOW_CHECK] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.adb:17:27] [@GP_Id:6] (Standard__integer.range_check_(((5000 : int) * Exercises__calculatecharge__quantity.quantity))) )) ))) );
+   ( [@GP_Sloc:exercises.adb:15:14] ([#"exercises.adb" 15 0 0] [#"exercises.adb" 15 0 0] (Exercises__calculatecharge__charge.charge.int__content <- ( ([#"exercises.adb" 15 0 0] ( [@GP_Shape:charge_assign__mult] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:      Charge := CostPence * Quantity;                           ^ exercises.adb:15:27:VC_OVERFLOW_CHECK] [@GP_Id:3] [@GP_Sloc:exercises.adb:15:27] (Standard__integer.range_check_(((5000 : int) * Exercises__calculatecharge__quantity.quantity))) )) ))) );
     raise Return__exc )
   with
    Return__exc -> ()
   end;
-   begin ensures {true} let _ = (let _ = (Exercises__calculatecharge__charge.charge.int__content = ([#"exercises.ads" 20 0 0] ( [@vc:annotation] [@comment:     Post => Charge = 5000 * Quantity;                            ^ exercises.ads:20:28:VC_OVERFLOW_CHECK] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Shape:pragargs__cmp__mult] [@GP_Sloc:exercises.ads:20:28] [@GP_Id:7] (Standard__integer.range_check_(((5000 : int) * Exercises__calculatecharge__quantity.quantity))) ))) in (
+   begin ensures {true} let _ = (let _ = (Exercises__calculatecharge__charge.charge.int__content = ([#"exercises.ads" 18 0 0] ( [@comment:       Post => (Charge = Quantity * 5000);                                   ^ exercises.ads:18:35:VC_OVERFLOW_CHECK] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Shape:pragargs__cmp__mult] [@GP_Sloc:exercises.ads:18:35] [@GP_Id:4] (Standard__integer.range_check_((Exercises__calculatecharge__quantity.quantity * (5000 : int)))) ))) in (
    ()))
    in () end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "modify" defined at exercises.ads:23, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "modify" defined at exercises.ads:21, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Exercises__modify__subprogram_def
  use        "_gnatprove_standard".Main
  use        "int".Int
@@ -3331,68 +3183,42 @@ module Exercises__modify__subprogram_def
  use        Exercises__modify__b___axiom as Exercises__modify__b___axiom
  use        Exercises__modify__c___axiom as Exercises__modify__c___axiom
 
- let def [#"exercises.ads" 23 0 0][@GP_Subp:exercises.ads:23] 
+ let def [#"exercises.ads" 21 0 0][@GP_Subp:exercises.ads:21] 
    (__void_param : unit)
-  requires { [#"exercises.ads" 23 0 0] true }
-  ensures { [#"exercises.ads" 23 0 0] ([#"exercises.ads" 27 0 0] ( [@comment:     Post => (A(B+C) = 40) and              ^ exercises.ads:27:14:VC_POSTCONDITION] [@GP_Reason:VC_POSTCONDITION] [@GP_Id:16] [@model_vc_post] [@GP_Sloc:exercises.ads:27:14] [@GP_Shape:pragargs__and] ( ( [@GP_Pretty_Ada:2795] [@GP_Sloc:exercises.ads:27:14] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__modify__a.a.Array__Int__Standard__integer.map__content (Exercises__modify__b.b + Exercises__modify__c.c))) = (40 : int)) ) /\ (forall i [#"exercises.ads" 27 0 0]  [@model_trace:2798] [@name:I]  : int.
-   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> (if (not ( (i = (Exercises__modify__b.b + Exercises__modify__c.c)) )) then (
-    ( [@GP_Sloc:exercises.ads:28:53] [@GP_Pretty_Ada:2817] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__modify__a.a.Array__Int__Standard__integer.map__content i)) = (Standard__integer__rep.to_rep (let temp___186 [@mlw:proxy_symbol] [@introduced] = (old Exercises__modify__a.a.Array__Int__Standard__integer.map__content ) in (
-     (Array__Int__Standard__integer.get temp___186 i)))
-    )) )) else (
-    ( [@GP_Sloc:exercises.ads:28:29] [@GP_Pretty_Ada:3217] true ))) )) ) )) }
+  requires { [#"exercises.ads" 21 0 0] true }
+  ensures { [#"exercises.ads" 21 0 0] ([#"exercises.ads" 28 0 0] ( [@GP_Reason:VC_POSTCONDITION] [@GP_Id:14] [@GP_Sloc:exercises.ads:28:14] [@comment:     Post => ( A(B+C) = 40 );              ^ exercises.ads:28:14:VC_POSTCONDITION] [@GP_Shape:pragargs__cmp] [@model_vc_post] ( [@GP_Sloc:exercises.ads:28:14] [@GP_Pretty_Ada:3176] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__modify__a.a.Array__Int__Standard__integer.map__content (Exercises__modify__b.b + Exercises__modify__c.c))) = (40 : int)) ) )) }
    = [@vc:divergent]
-  ( () (* Assume dynamic invariants of inputs of the subprogram exercises.ads:23 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram exercises.ads:21 *)
   ;
    assume {  (Exercises__smallarray___axiom.dynamic_invariant Exercises__modify__a.a.Array__Int__Standard__integer.map__content True False True True) };
    assume {  (Standard__integer___axiom.dynamic_invariant Exercises__modify__b.b True False True True) };
    assume {  (Standard__integer___axiom.dynamic_invariant Exercises__modify__c.c True False True True) };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram exercises.ads:23 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram exercises.ads:21 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram exercises.ads:23 *)
+  () (* Check for RTE in the Pre of the subprogram exercises.ads:21 *)
   ;
-   begin ensures {true} let _ = (let _ = ( ( ( (Exercises__modify__b.b > (0 : int)) && (Exercises__modify__c.c > (0 : int)) ) && (Exercises__modify__b.b >= ([#"exercises.ads" 26 0 0] ( [@GP_Sloc:exercises.ads:26:52] [@GP_Id:14] [@comment:       Pre => B > 0 and then C > 0 and then B >= 1 -C and then B <= 20 - C,                                                    ^ exercises.ads:26:52:VC_OVERFLOW_CHECK] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Shape:pragargs__andthen__andthen__cmp__sub] (Standard__integer.range_check_(((1 : int) - Exercises__modify__c.c))) ))) ) && (Exercises__modify__b.b <= ([#"exercises.ads" 26 0 0] ( [@GP_Id:15] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:       Pre => B > 0 and then C > 0 and then B >= 1 -C and then B <= 20 - C,                                                                        ^ exercises.ads:26:72:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.ads:26:72] [@GP_Shape:pragargs__andthen__cmp__sub] (Standard__integer.range_check_(((20 : int) - Exercises__modify__c.c))) ))) ) in (
+   begin ensures {true} let _ = (let _ = ( ( (Boolean.andb((Boolean.andb((Boolean.andb((Exercises__modify__c.c < (( -2147483648) : int))) ((Exercises__modify__b.b < (( -2147483648) : int))))) ((Exercises__modify__b.b > (2147483647 : int))))) ((Exercises__modify__c.c > (2147483647 : int)))) && (Boolean.andb((([#"exercises.ads" 26 0 0] ( [@GP_Id:10] [@GP_Sloc:exercises.ads:26:28] [@comment:               and then (B + C > Integer'First - Size'Last and B + C < Integer'Last + Size'Last)                            ^ exercises.ads:26:28:VC_OVERFLOW_CHECK] [@vc:annotation] [@GP_Shape:pragargs__andthen__andthen__and__cmp__add] [@GP_Reason:VC_OVERFLOW_CHECK] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) > (( -2147483668) : int))) ((([#"exercises.ads" 26 0 0] ( [@GP_Id:11] [@vc:annotation] [@GP_Shape:pragargs__andthen__andthen__and__cmp__add] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.ads:26:66] [@comment:               and then (B + C > Integer'First - Size'Last and B + C < Integer'Last + Size'Last)                                                                  ^ exercises.ads:26:66:VC_OVERFLOW_CHECK] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) < (2147483667 : int)))) ) && (Boolean.andb((([#"exercises.ads" 27 0 0] ( [@GP_Id:12] [@GP_Shape:pragargs__andthen__and__cmp__add] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:               and then (B + C > 0 and  B + C < Size'Last)) ,                            ^ exercises.ads:27:28:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.ads:27:28] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) > (0 : int))) ((([#"exercises.ads" 27 0 0] ( [@GP_Id:13] [@GP_Shape:pragargs__andthen__and__cmp__add] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:               and then (B + C > 0 and  B + C < Size'Last)) ,                                           ^ exercises.ads:27:43:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.ads:27:43] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) < (20 : int)))) ) in (
    ()))
    in () end ;
-  () (* Assume Pre of the subprogram exercises.ads:23 *)
+  () (* Assume Pre of the subprogram exercises.ads:21 *)
   ;
-   assume {  ( ( ( ( [@GP_Pretty_Ada:2769] (Exercises__modify__b.b > (0 : int)) ) /\ ( [@GP_Pretty_Ada:2773] (Exercises__modify__c.c > (0 : int)) ) ) /\ ( [@GP_Pretty_Ada:2777] (Exercises__modify__b.b >= ((1 : int) - Exercises__modify__c.c)) ) ) /\ ( [@GP_Pretty_Ada:2783] (Exercises__modify__b.b <= ((20 : int) - Exercises__modify__c.c)) ) ) };
-   begin ensures {true} let _ = (let _ = Exercises__modify__a.a.Array__Int__Standard__integer.map__content in (
+   assume {  ( ( ( ( ( ( [@GP_Pretty_Ada:2748] (Exercises__modify__c.c < (( -2147483648) : int)) ) /\ ( [@GP_Pretty_Ada:2754] (Exercises__modify__b.b < (( -2147483648) : int)) ) ) /\ ( [@GP_Pretty_Ada:2760] (Exercises__modify__b.b > (2147483647 : int)) ) ) /\ ( [@GP_Pretty_Ada:2766] (Exercises__modify__c.c > (2147483647 : int)) ) ) /\ ( ( [@GP_Pretty_Ada:2774] ((Exercises__modify__b.b + Exercises__modify__c.c) > (( -2147483668) : int)) ) /\ ( [@GP_Pretty_Ada:2786] ((Exercises__modify__b.b + Exercises__modify__c.c) < (2147483667 : int)) ) ) ) /\ ( ( [@GP_Pretty_Ada:2798] ((Exercises__modify__b.b + Exercises__modify__c.c) > (0 : int)) ) /\ ( [@GP_Pretty_Ada:2804] ((Exercises__modify__b.b + Exercises__modify__c.c) < (20 : int)) ) ) ) };
+   try
+   ( ();
+   ( [@GP_Sloc:exercises.adb:20:14] ([#"exercises.adb" 20 0 0] [#"exercises.adb" 20 0 0] (Exercises__modify__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Exercises__modify__a.a.Array__Int__Standard__integer.map__content) ((let temp___177 [@mlw:proxy_symbol] [@introduced] = ([#"exercises.adb" 20 0 0] ( [@comment:      A(B+C) := 40;          ^ exercises.adb:20:10:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.adb:20:10] [@GP_Shape:a_assign__ixdcomp__add] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Id:6] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) in (
+    (  assert {  ([#"exercises.adb" 20 0 0] ( [@GP_Sloc:exercises.adb:20:10] [@GP_Shape:a_assign__ixdcomp__add] [@vc:annotation] [@GP_Reason:VC_INDEX_CHECK] [@comment:      A(B+C) := 40;          ^ exercises.adb:20:10:VC_INDEX_CHECK] [@GP_Id:7] ( (Exercises__size.first <= temp___177) /\ (temp___177 <= Exercises__size.last) ) )) };
+    temp___177 )))
+   ) (( 40 : Standard__integer.integer ))) ))) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   begin ensures {true} let _ = (let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__modify__a.a.Array__Int__Standard__integer.map__content) ((let temp___179 [@mlw:proxy_symbol] [@introduced] = ([#"exercises.ads" 28 0 0] ( [@GP_Sloc:exercises.ads:28:19] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:     Post => ( A(B+C) = 40 );                   ^ exercises.ads:28:19:VC_OVERFLOW_CHECK] [@GP_Shape:pragargs__cmp__ixdcomp__add] [@GP_Id:8] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) in (
+   (  assert {  ([#"exercises.ads" 28 0 0] ( [@GP_Sloc:exercises.ads:28:19] [@vc:annotation] [@comment:     Post => ( A(B+C) = 40 );                   ^ exercises.ads:28:19:VC_INDEX_CHECK] [@GP_Shape:pragargs__cmp__ixdcomp__add] [@GP_Reason:VC_INDEX_CHECK] [@GP_Id:9] ( (Exercises__size.first <= temp___179) /\ (temp___179 <= Exercises__size.last) ) )) };
+   temp___179 )))
+  )))) = (40 : int)) in (
    ()))
-   in () end ;
-  (let temp___old_184 [@mlw:proxy_symbol] [@introduced] =  (val _f : Array__Int__Standard__integer.map
-  ensures { (result = Exercises__modify__a.a.Array__Int__Standard__integer.map__content)} 
-  in _f) in (
-   (  try
-    ( ();
-    ( [@GP_Sloc:exercises.adb:23:14] ([#"exercises.adb" 23 0 0] [#"exercises.adb" 23 0 0] (Exercises__modify__a.a.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Exercises__modify__a.a.Array__Int__Standard__integer.map__content) ((let temp___181 [@mlw:proxy_symbol] [@introduced] = ([#"exercises.adb" 23 0 0] ( [@GP_Shape:a_assign__ixdcomp__add] [@vc:annotation] [@GP_Sloc:exercises.adb:23:10] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:      A(B+C) := 40;          ^ exercises.adb:23:10:VC_OVERFLOW_CHECK] [@GP_Id:9] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) in (
-     (  assert {  ([#"exercises.adb" 23 0 0] ( [@GP_Id:10] [@GP_Shape:a_assign__ixdcomp__add] [@vc:annotation] [@GP_Sloc:exercises.adb:23:10] [@GP_Reason:VC_INDEX_CHECK] [@comment:      A(B+C) := 40;          ^ exercises.adb:23:10:VC_INDEX_CHECK] ( (Exercises__size.first <= temp___181) /\ (temp___181 <= Exercises__size.last) ) )) };
-     temp___181 )))
-    ) (( 40 : Standard__integer.integer ))) ))) );
-     raise Return__exc )
-   with
-    Return__exc -> ()
-   end;
-    begin ensures {true} let _ = (let _ = (Boolean.andb(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__modify__a.a.Array__Int__Standard__integer.map__content) ((let temp___183 [@mlw:proxy_symbol] [@introduced] = ([#"exercises.ads" 27 0 0] ( [@GP_Id:11] [@vc:annotation] [@GP_Shape:pragargs__and__cmp__ixdcomp__add] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:     Post => (A(B+C) = 40) and                  ^ exercises.ads:27:18:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.ads:27:18] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) )) in (
-    (  assert {  ([#"exercises.ads" 27 0 0] ( [@GP_Id:12] [@vc:annotation] [@GP_Shape:pragargs__and__cmp__ixdcomp__add] [@GP_Reason:VC_INDEX_CHECK] [@GP_Sloc:exercises.ads:27:18] [@comment:     Post => (A(B+C) = 40) and                  ^ exercises.ads:27:18:VC_INDEX_CHECK] ( (Exercises__size.first <= temp___183) /\ (temp___183 <= Exercises__size.last) ) )) };
-    temp___183 )))
-   )))) = (40 : int))) (( (let i =  (val _f : int
-   in _f) in (
-    (if ((Boolean.andb(((0 : int) <= i)) ((i <= (20 : int))))) then (
-      begin ensures {true} let _ = (let _ = (if (not ( (i = ([#"exercises.ads" 28 0 0] ( [@GP_Id:13] [@comment:     (for all I in Size => (if (not (I = B+C)) then A(I) = A'Old(I)));                                           ^ exercises.ads:28:43:VC_OVERFLOW_CHECK] [@GP_Shape:pragargs__and__forall__if__not__cmp__add] [@GP_Sloc:exercises.ads:28:43] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] (Standard__integer.range_check_((Exercises__modify__b.b + Exercises__modify__c.c))) ))) )) then (
-      ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__modify__a.a.Array__Int__Standard__integer.map__content) (i)))) = (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(temp___old_184) (i)))))) else (
-      (Boolean.of_int((1 : int))))) in (
-      ()))
-      in () end ))))
-   ;
-    (val _f : bool
-   ensures { ( (result = True) <-> (forall i   [@model_trace:2798] [@name:I]  : int.
-    ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> (if (not ( (i = (Exercises__modify__b.b + Exercises__modify__c.c)) )) then (
-     ( [@GP_Pretty_Ada:2817] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__modify__a.a.Array__Int__Standard__integer.map__content i)) = (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get temp___old_184 i))) )) else (
-     ( [@GP_Pretty_Ada:3217] true ))) )) )} 
-   in _f) ))) in (
-    ()))
-    in () end  )))
-   )
+   in () end  )
 end
 
 (* Module for checking contracts and absence of run-time errors in subprogram "masksequence" defined at exercises.ads:30, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
@@ -3424,10 +3250,8 @@ module Exercises__masksequence__subprogram_def
  let def [#"exercises.ads" 30 0 0][@GP_Subp:exercises.ads:30] 
    (__void_param : unit)
   requires { [#"exercises.ads" 30 0 0] true }
-  ensures { [#"exercises.ads" 30 0 0] ([#"exercises.ads" 34 0 0] ( [@GP_Shape:pragargs__forall] [@GP_Reason:VC_POSTCONDITION] [@GP_Sloc:exercises.ads:34:18] [@model_vc_post] [@comment:         Post => (for all I in Size => Target(I) = Target'Old(I) * Mask(I));                  ^ exercises.ads:34:18:VC_POSTCONDITION] [@GP_Id:25] (forall i [#"exercises.ads" 34 0 0]  [@name:I] [@model_trace:2886]  : int.
-   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Sloc:exercises.ads:34:40] [@GP_Pretty_Ada:2899] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) = ((Standard__integer__rep.to_rep (let temp___198 [@mlw:proxy_symbol] [@introduced] = (old Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content ) in (
-    (Array__Int__Standard__integer.get temp___198 i)))
-   ) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)))) ) )) )) }
+  ensures { [#"exercises.ads" 30 0 0] ([#"exercises.ads" 38 0 0] ( [@GP_Shape:pragargs__forall] [@GP_Reason:VC_POSTCONDITION] [@GP_Id:17] [@GP_Sloc:exercises.ads:38:14] [@model_vc_post] [@comment:     Post => (for all I in Size'Range => (Target(I) = Target(I) * Mask(I)));              ^ exercises.ads:38:14:VC_POSTCONDITION] (forall i [#"exercises.ads" 38 0 0]  [@model_trace:2905] [@name:I]  : int.
+   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Sloc:exercises.ads:38:42] [@GP_Pretty_Ada:2919] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) = ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)))) ) )) )) }
    = [@vc:divergent]
   ( () (* Assume dynamic invariants of inputs of the subprogram exercises.ads:30 *)
   ;
@@ -3437,161 +3261,85 @@ module Exercises__masksequence__subprogram_def
   ;
   () (* Check for RTE in the Pre of the subprogram exercises.ads:30 *)
   ;
-   begin ensures {true} let _ = (let _ = ( (let i =  (val _f : int
+   begin ensures {true} let _ = (let _ = (Boolean.andb((Boolean.of_int((0 : int)))) (( (let i =  (val _f : int
   in _f) in (
    (if ((Boolean.andb(((0 : int) <= i)) ((i <= (20 : int))))) then (
-     begin ensures {true} let _ = (let _ = (Boolean.orb(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (i)))) = (0 : int))) (((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (i)))) = (1 : int)))) in (
+     begin ensures {true} let _ = (let _ = ( ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (i)))) < (2147483647 : int)) && (Boolean.orb(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (i)))) = (1 : int))) (((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (i)))) = (0 : int)))) ) in (
      ()))
      in () end ))))
   ;
    (val _f : bool
-  ensures { ( (result = True) <-> (forall i   [@model_trace:2863] [@name:I]  : int.
-   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Pretty_Ada:2878] ( ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (0 : int)) \/ ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (1 : int)) ) ) )) )} 
-  in _f) ) in (
+  ensures { ( (result = True) <-> (forall i   [@model_trace:2873] [@name:I]  : int.
+   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( ( [@GP_Pretty_Ada:2887] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) < (2147483647 : int)) ) /\ ( [@GP_Pretty_Ada:2897] ( ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (1 : int)) \/ ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (0 : int)) ) ) ) )) )} 
+  in _f) ))) in (
    ()))
    in () end ;
   () (* Assume Pre of the subprogram exercises.ads:30 *)
   ;
-   assume {  (forall i   [@model_trace:2863] [@name:I]  : int.
-   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Pretty_Ada:2878] ( ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (0 : int)) \/ ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (1 : int)) ) ) )) };
-   begin ensures {true} let _ = (let _ = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content in (
-   ()))
-   in () end ;
-  (let temp___old_195 [@mlw:proxy_symbol] [@introduced] =  (val _f : Array__Int__Standard__integer.map
-  ensures { (result = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content)} 
+   assume {  ( ( [@GP_Pretty_Ada:2865] false ) /\ (forall i   [@model_trace:2873] [@name:I]  : int.
+   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( ( [@GP_Pretty_Ada:2887] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) < (2147483647 : int)) ) /\ ( [@GP_Pretty_Ada:2897] ( ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (1 : int)) \/ ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)) = (0 : int)) ) ) ) )) ) };
+   try
+   ( ();
+   ([#"exercises.adb" 28 0 0] ());
+   ();
+   ( [@GP_Sloc:exercises.adb:28:27] ([#"exercises.adb" 28 0 0] (let temp___181 [@mlw:proxy_symbol] [@introduced] = (0 : int) in (
+   (let temp___182 [@mlw:proxy_symbol] [@introduced] = (20 : int) in (
+    ( [#"exercises.adb" 28 0 0] (Exercises__masksequence__L_1__i.i.int__content <- ( temp___181 ));
+    () (* Translation of an Ada loop from exercises.adb:28 *)
+    ;
+    (if ((Boolean.andb((temp___181 <= Exercises__masksequence__L_1__i.i.int__content)) ((Exercises__masksequence__L_1__i.i.int__content <= temp___182)))) then (
+     [#"exercises.adb" 28 0 0] try
+      ( [#"exercises.adb" 28 0 0] begin ensures {true} let _ = (let _ = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content in (
+       ()))
+       in () end ;
+      (let temp___183 [@mlw:proxy_symbol] [@introduced] = [#"exercises.adb" 28 0 0] (val _f : Array__Int__Standard__integer.map
+      ensures {[#"exercises.adb" 28 0 0] (result = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content)} 
+      in _f) in (
+       ( () (* First unroling of the loop statements appearing before the loop invariant of loop exercises.adb:28 *)
+       ;
+       () (* While loop translating the Ada loop from exercises.adb:28 *)
+       ;
+       [#"exercises.adb" 28 0 0] while True do
+        ( () (* Assume implicit invariants from the loop exercises.adb:28 *)
+        ;
+        [#"exercises.adb" 28 0 0] assume { [#"exercises.adb" 28 0 0] (Boolean.andb(( ( true /\ (Exercises__smallarray___axiom.dynamic_invariant Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content True True True True) )/\(forall temp___184 [#"exercises.adb" 28 0 0]  : int.
+         (if (( (Exercises__size.first <= temp___184) /\ (temp___184 <= Exercises__size.last) )) then (
+          (if (( (temp___182 < temp___184) \/ ( (temp___184 < temp___181) \/ (Exercises__masksequence__L_1__i.i.int__content <= temp___184) ) )) then (
+           ((Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content temp___184) = (Array__Int__Standard__integer.get temp___183 temp___184))) else (
+           true))) else true)) )) (( ((0 : int) <= Exercises__masksequence__L_1__i.i.int__content) /\ (Exercises__masksequence__L_1__i.i.int__content <= (20 : int)) ))) };
+        () (* Check for absence of RTE in the invariant of loop exercises.adb:28 *)
+        ;
+        () (* Loop statements appearing after the loop invariant of loop exercises.adb:28 *)
+        ;
+        ();
+        ( [@GP_Sloc:exercises.adb:29:20] ([#"exercises.adb" 29 0 0] [#"exercises.adb" 29 0 0] (Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (Exercises__masksequence__L_1__i.i.int__content) ((Standard__integer__rep.of_rep(([#"exercises.adb" 29 0 0] ( [@GP_Id:15] [@GP_Sloc:exercises.adb:29:33] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:         Target(I) := Target(I) * Mask(I);                                 ^ exercises.adb:29:33:VC_OVERFLOW_CHECK] [@GP_Shape:L_1_while__target_assign__mult] (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (Exercises__masksequence__L_1__i.i.int__content)))) * (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (Exercises__masksequence__L_1__i.i.int__content))))))) )))))) ))) );
+        () (* Check for the exit condition and loop statements appearing before the loop invariant of loop exercises.adb:28 *)
+        ;
+        (if ((Exercises__masksequence__L_1__i.i.int__content = temp___182)) then (
+          raise Exercises__masksequence__L_1.L_1));
+        ([#"exercises.adb" 28 0 0] [#"exercises.adb" 28 0 0] (Exercises__masksequence__L_1__i.i.int__content <- ( (Exercises__masksequence__L_1__i.i.int__content + (1 : int)) ))) )
+       done )))
+       )
+     with
+      Exercises__masksequence__L_1.L_1 -> ()
+     end)) )))
+   ))
+   ) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   begin ensures {true} let _ = (let _ = ( (let i =  (val _f : int
   in _f) in (
-   (  try
-    ( ();
-    ([#"exercises.adb" 30 0 0] ());
-    ();
-    ( [@GP_Sloc:exercises.adb:30:21] ([#"exercises.adb" 30 0 0] (let temp___187 [@mlw:proxy_symbol] [@introduced] = (0 : int) in (
-    (let temp___188 [@mlw:proxy_symbol] [@introduced] = (20 : int) in (
-     ( [#"exercises.adb" 30 0 0] (Exercises__masksequence__L_1__i.i.int__content <- ( temp___187 ));
-     () (* Translation of an Ada loop from exercises.adb:30 *)
-     ;
-     (if ((Boolean.andb((temp___187 <= Exercises__masksequence__L_1__i.i.int__content)) ((Exercises__masksequence__L_1__i.i.int__content <= temp___188)))) then (
-      [#"exercises.adb" 30 0 0] try
-       ( [#"exercises.adb" 30 0 0] begin ensures {true} let _ = (let _ = Exercises__masksequence__L_1__i.i.int__content in (
-        ()))
-        in () end ;
-       (let temp___191 [@mlw:proxy_symbol] [@introduced] = [#"exercises.adb" 30 0 0] (val _f : int
-       ensures {[#"exercises.adb" 30 0 0] (result = Exercises__masksequence__L_1__i.i.int__content)} 
-       in _f) in (
-        ( [#"exercises.adb" 30 0 0] begin ensures {true} let _ = (let _ = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content in (
-         ()))
-         in () end ;
-        (let temp___193 [@mlw:proxy_symbol] [@introduced] = [#"exercises.adb" 30 0 0] (val _f : Array__Int__Standard__integer.map
-        ensures {[#"exercises.adb" 30 0 0] (result = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content)} 
-        in _f) in (
-         ( [#"exercises.adb" 30 0 0] begin ensures {true} let _ = (let _ = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content in (
-          ()))
-          in () end ;
-         (let temp___189 [@mlw:proxy_symbol] [@introduced] = [#"exercises.adb" 30 0 0] (val _f : Array__Int__Standard__integer.map
-         ensures {[#"exercises.adb" 30 0 0] (result = Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content)} 
-         in _f) in (
-          ( () (* First unroling of the loop statements appearing before the loop invariant of loop exercises.adb:30 *)
-          ;
-          () (* While loop translating the Ada loop from exercises.adb:30 *)
-          ;
-          (let temp___inv_192 [@mlw:proxy_symbol] [@introduced] = ( (let j = [#"exercises.adb" 30 0 0] (val _f : int
-          in _f) in (
-           (if (( [#"exercises.adb" 30 0 0] begin ensures {true} let _ = (let _ = (Exercises__masksequence__L_1__i.i.int__content - (1 : int)) in (
-            ()))
-            in () end ;
-           ([#"exercises.adb" 31 0 0] [#"exercises.adb" 31 0 0] (val _f : unit
-           requires {( [@GP_Id:18] [@vc:annotation] [@GP_Reason:VC_RANGE_CHECK] [@GP_Sloc:exercises.adb:31:41] [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                         ^ exercises.adb:31:41:VC_RANGE_CHECK] [#"exercises.adb" 31 0 0] ( ((0 : int) <= (Exercises__masksequence__L_1__i.i.int__content - (1 : int))) -> ( ((0 : int) >= Exercises__size.first) /\ ((Exercises__masksequence__L_1__i.i.int__content - (1 : int)) <= Exercises__size.last) ) ) )} 
-           ensures {[#"exercises.adb" 31 0 0] true} 
-           in _f));
-           (Boolean.andb(((0 : int) <= j)) ((j <= (Exercises__masksequence__L_1__i.i.int__content - (1 : int))))) )) then (
-             begin ensures {true} let _ = (let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) ((  assert {  ([#"exercises.adb" 31 0 0] ( [@GP_Sloc:exercises.adb:31:76] [@GP_Id:19] [@vc:annotation] [@GP_Shape:L_1_while__pragargs__forall__cmp__ixdcomp] [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                            ^ exercises.adb:31:76:VC_INDEX_CHECK] [@GP_Reason:VC_INDEX_CHECK] ( (Exercises__size.first <= j) /\ (j <= Exercises__size.last) ) )) };
-            j ))))) = ([#"exercises.adb" 31 0 0] ( [@GP_Shape:L_1_while__pragargs__forall__cmp__mult] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                                                      ^ exercises.adb:31:102:VC_OVERFLOW_CHECK] [@GP_Id:22] [@GP_Sloc:exercises.adb:31:102] (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(temp___193) (( [#"exercises.adb" 31 0 0] assert { [#"exercises.adb" 31 0 0] ([#"exercises.adb" 31 0 0] ( [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                                                   ^ exercises.adb:31:99:VC_INDEX_CHECK] [@vc:annotation] [@GP_Sloc:exercises.adb:31:99] [@GP_Reason:VC_INDEX_CHECK] [@GP_Id:20] [@GP_Shape:L_1_while__pragargs__forall__cmp__mult__ixdcomp] ( (Exercises__size.first <= j) /\ (j <= Exercises__size.last) ) )) };
-            j ))))) * (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) ((  assert {  ([#"exercises.adb" 31 0 0] ( [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                                                             ^ exercises.adb:31:109:VC_INDEX_CHECK] [@GP_Sloc:exercises.adb:31:109] [@vc:annotation] [@GP_Reason:VC_INDEX_CHECK] [@GP_Id:21] [@GP_Shape:L_1_while__pragargs__forall__cmp__mult__ixdcomp] ( (Exercises__size.first <= j) /\ (j <= Exercises__size.last) ) )) };
-            j )))))))) ))) in (
-             ()))
-             in () end ))))
-          ;
-           (val _f : bool
-          ensures { ( (result = True) <-> (forall j   [@model_trace:2501] [@name:J]  : int.
-           ( ( ((0 : int) <= j) /\ (j <= (Exercises__masksequence__L_1__i.i.int__content - (1 : int))) ) -> ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content j)) = ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get temp___193 j)) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask j)))) )) )} 
-          in _f) ) in (
-            begin ensures {true} let _ = (let _ = () in (
-            ()))
-            in () end ))
-          ;
-           while True do
-           invariant { 
-            ([#"exercises.adb" 31 0 0] ( [@GP_Reason:VC_LOOP_INVARIANT] [@GP_Sloc:exercises.adb:31:33] [@vc:annotation] [@GP_Shape:L_1_while__pragargs__forall] [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                 ^ exercises.adb:31:33:VC_LOOP_INVARIANT] [@GP_Id:23] (forall j [#"exercises.adb" 31 0 0]  [@model_trace:2501] [@name:J]  : int.
-             ( ( ((0 : int) <= j) /\ (j <= (Exercises__masksequence__L_1__i.i.int__content - (1 : int))) ) -> ( [@GP_Pretty_Ada:2521] [@GP_Sloc:exercises.adb:31:69] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content j)) = ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get temp___193 j)) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask j)))) ) )) ))
-            }
-           ( () (* Assume implicit invariants from the loop exercises.adb:30 *)
-           ;
-            assume {  (Boolean.andb(( ( ( ( true /\ (Exercises__smallarray___axiom.dynamic_invariant Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content True True True True) )/\(forall temp___190   : int.
-            (if (( (Exercises__size.first <= temp___190) /\ (temp___190 <= Exercises__size.last) )) then (
-             (if (( (temp___188 < temp___190) \/ ( (temp___190 < temp___187) \/ (Exercises__masksequence__L_1__i.i.int__content <= temp___190) ) )) then (
-              ((Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content temp___190) = (Array__Int__Standard__integer.get temp___189 temp___190))) else (
-              true))) else true)) ) /\ (if (( True \/ (Exercises__size.first <= Exercises__size.last) )) then (
-            (Exercises__size.dynamic_property Exercises__size.first Exercises__size.last Exercises__masksequence__L_1__i.i.int__content)) else true) )/\true )) (( ((0 : int) <= Exercises__masksequence__L_1__i.i.int__content) /\ (Exercises__masksequence__L_1__i.i.int__content <= (20 : int)) ))) };
-           () (* Check for absence of RTE in the invariant of loop exercises.adb:30 *)
-           ;
-           () (* Loop statements appearing after the loop invariant of loop exercises.adb:30 *)
-           ;
-           ();
-           ( [@GP_Sloc:exercises.adb:32:20] ([#"exercises.adb" 32 0 0] [#"exercises.adb" 32 0 0] (Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content <- ( (Array__Int__Standard__integer.set(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (Exercises__masksequence__L_1__i.i.int__content) ((Standard__integer__rep.of_rep(([#"exercises.adb" 32 0 0] ( [@GP_Id:17] [@comment:         Target(I) := Target(I) * Mask(I);                                 ^ exercises.adb:32:33:VC_OVERFLOW_CHECK] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.adb:32:33] [@GP_Shape:L_1_while__target_assign__mult] (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (Exercises__masksequence__L_1__i.i.int__content)))) * (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (Exercises__masksequence__L_1__i.i.int__content))))))) )))))) ))) );
-           () (* Check for the exit condition and loop statements appearing before the loop invariant of loop exercises.adb:30 *)
-           ;
-           (if ((Exercises__masksequence__L_1__i.i.int__content = temp___188)) then (
-             raise Exercises__masksequence__L_1.L_1));
-           ([#"exercises.adb" 30 0 0] [#"exercises.adb" 30 0 0] (Exercises__masksequence__L_1__i.i.int__content <- ( (Exercises__masksequence__L_1__i.i.int__content + (1 : int)) )));
-           (let temp___inv_192 [@mlw:proxy_symbol] [@introduced] = ( (let j =  (val _f : int
-           in _f) in (
-            (if ((  begin ensures {true} let _ = (let _ = (Exercises__masksequence__L_1__i.i.int__content - (1 : int)) in (
-             ()))
-             in () end ;
-            ([#"exercises.adb" 31 0 0] [#"exercises.adb" 31 0 0] (val _f : unit
-            requires {( [@GP_Id:18] [@vc:annotation] [@GP_Reason:VC_RANGE_CHECK] [@GP_Sloc:exercises.adb:31:41] [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                         ^ exercises.adb:31:41:VC_RANGE_CHECK] [#"exercises.adb" 31 0 0] ( ((0 : int) <= (Exercises__masksequence__L_1__i.i.int__content - (1 : int))) -> ( ((0 : int) >= Exercises__size.first) /\ ((Exercises__masksequence__L_1__i.i.int__content - (1 : int)) <= Exercises__size.last) ) ) )} 
-            ensures {[#"exercises.adb" 31 0 0] true} 
-            in _f));
-            (Boolean.andb(((0 : int) <= j)) ((j <= (Exercises__masksequence__L_1__i.i.int__content - (1 : int))))) )) then (
-              begin ensures {true} let _ = (let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) ((  assert {  ([#"exercises.adb" 31 0 0] ( [@GP_Sloc:exercises.adb:31:76] [@GP_Id:19] [@vc:annotation] [@GP_Shape:L_1_while__pragargs__forall__cmp__ixdcomp] [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                            ^ exercises.adb:31:76:VC_INDEX_CHECK] [@GP_Reason:VC_INDEX_CHECK] ( (Exercises__size.first <= j) /\ (j <= Exercises__size.last) ) )) };
-             j ))))) = ([#"exercises.adb" 31 0 0] ( [@GP_Shape:L_1_while__pragargs__forall__cmp__mult] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                                                      ^ exercises.adb:31:102:VC_OVERFLOW_CHECK] [@GP_Id:22] [@GP_Sloc:exercises.adb:31:102] (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(temp___193) (( [#"exercises.adb" 31 0 0] assert { [#"exercises.adb" 31 0 0] ([#"exercises.adb" 31 0 0] ( [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                                                   ^ exercises.adb:31:99:VC_INDEX_CHECK] [@vc:annotation] [@GP_Sloc:exercises.adb:31:99] [@GP_Reason:VC_INDEX_CHECK] [@GP_Id:20] [@GP_Shape:L_1_while__pragargs__forall__cmp__mult__ixdcomp] ( (Exercises__size.first <= j) /\ (j <= Exercises__size.last) ) )) };
-             j ))))) * (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) ((  assert {  ([#"exercises.adb" 31 0 0] ( [@comment:         pragma Loop_Invariant (for all J in Size range 0 .. I-1 => Target(J) = Target'Loop_Entry(J) * Mask(J));                                                                                                             ^ exercises.adb:31:109:VC_INDEX_CHECK] [@GP_Sloc:exercises.adb:31:109] [@vc:annotation] [@GP_Reason:VC_INDEX_CHECK] [@GP_Id:21] [@GP_Shape:L_1_while__pragargs__forall__cmp__mult__ixdcomp] ( (Exercises__size.first <= j) /\ (j <= Exercises__size.last) ) )) };
-             j )))))))) ))) in (
-              ()))
-              in () end ))))
-           ;
-            (val _f : bool
-           ensures { ( (result = True) <-> (forall j   [@model_trace:2501] [@name:J]  : int.
-            ( ( ((0 : int) <= j) /\ (j <= (Exercises__masksequence__L_1__i.i.int__content - (1 : int))) ) -> ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content j)) = ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get temp___193 j)) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask j)))) )) )} 
-           in _f) ) in (
-             begin ensures {true} let _ = (let _ = () in (
-             ()))
-             in () end ))
-            )
-          done )))
-          )))
-         )))
-        )
-      with
-       Exercises__masksequence__L_1.L_1 -> ()
-      end)) )))
-    ))
-    ) );
-     raise Return__exc )
-   with
-    Return__exc -> ()
-   end;
-    begin ensures {true} let _ = (let _ = ( (let i =  (val _f : int
-   in _f) in (
-    (if ((Boolean.andb(((0 : int) <= i)) ((i <= (20 : int))))) then (
-      begin ensures {true} let _ = (let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (i)))) = ([#"exercises.ads" 34 0 0] ( [@GP_Sloc:exercises.ads:34:66] [@GP_Shape:pragargs__forall__cmp__mult] [@comment:         Post => (for all I in Size => Target(I) = Target'Old(I) * Mask(I));                                                                  ^ exercises.ads:34:66:VC_OVERFLOW_CHECK] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@GP_Id:24] (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(temp___old_195) (i)))) * (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (i))))))) ))) in (
-      ()))
-      in () end ))))
-   ;
-    (val _f : bool
-   ensures { ( (result = True) <-> (forall i   [@name:I] [@model_trace:2886]  : int.
-    ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Pretty_Ada:2899] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) = ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get temp___old_195 i)) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)))) ) )) )} 
-   in _f) ) in (
-    ()))
-    in () end  )))
-   )
+   (if ((Boolean.andb(((0 : int) <= i)) ((i <= (20 : int))))) then (
+     begin ensures {true} let _ = (let _ = ((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (i)))) = ([#"exercises.ads" 38 0 0] ( [@GP_Id:16] [@GP_Shape:pragargs__forall__cmp__mult] [@vc:annotation] [@GP_Reason:VC_OVERFLOW_CHECK] [@comment:     Post => (for all I in Size'Range => (Target(I) = Target(I) * Mask(I)));                                                                 ^ exercises.ads:38:65:VC_OVERFLOW_CHECK] [@GP_Sloc:exercises.ads:38:65] (Standard__integer.range_check_(((Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content) (i)))) * (Standard__integer__rep.to_rep((Array__Int__Standard__integer.get(Exercises__masksequence__mask.mask) (i))))))) ))) in (
+     ()))
+     in () end ))))
+  ;
+   (val _f : bool
+  ensures { ( (result = True) <-> (forall i   [@model_trace:2905] [@name:I]  : int.
+   ( ( ((0 : int) <= i) /\ (i <= (20 : int)) ) -> ( [@GP_Pretty_Ada:2919] ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) = ((Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__target.target.Array__Int__Standard__integer.map__content i)) * (Standard__integer__rep.to_rep (Array__Int__Standard__integer.get Exercises__masksequence__mask.mask i)))) ) )) )} 
+  in _f) ) in (
+   ()))
+   in () end  )
 end

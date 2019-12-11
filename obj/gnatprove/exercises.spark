@@ -15,7 +15,7 @@
       "sloc": [
         {
           "file": "exercises.ads",
-          "line": 7
+          "line": 6
         }
       ],
       "spark": "all"
@@ -25,7 +25,7 @@
       "sloc": [
         {
           "file": "exercises.ads",
-          "line": 16
+          "line": 13
         }
       ],
       "spark": "all"
@@ -35,7 +35,7 @@
       "sloc": [
         {
           "file": "exercises.ads",
-          "line": 23
+          "line": 21
         }
       ],
       "spark": "all"
@@ -53,103 +53,27 @@
   ],
   "flow": [
     {
-      "file": "exercises.adb",
-      "line": 4,
-      "col": 61,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Calc",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "how_proved": "flow"
-    },
-    {
-      "file": "exercises.ads",
-      "line": 7,
-      "col": 37,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Calc",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "how_proved": "flow"
-    },
-    {
-      "file": "exercises.ads",
-      "line": 9,
-      "col": 8,
-      "rule": "DEPENDS_WRONG",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Calc",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "how_proved": "flow"
-    },
-    {
-      "file": "exercises.ads",
-      "line": 16,
-      "col": 52,
-      "rule": "UNINITIALIZED",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.CalculateCharge",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 16
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "how_proved": "flow"
-    },
-    {
-      "file": "exercises.ads",
-      "line": 18,
-      "col": 8,
-      "rule": "DEPENDS_WRONG",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.CalculateCharge",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 16
-          }
-        ]
-      },
-      "check_tree": {
-      },
-      "how_proved": "flow"
-    },
-    {
       "file": "exercises.ads",
       "line": 32,
+      "col": 8,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.MaskSequence",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 30
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 33,
       "col": 8,
       "rule": "DEPENDS_WRONG",
       "severity": "info",
@@ -168,7 +92,140 @@
     },
     {
       "file": "exercises.ads",
-      "line": 25,
+      "line": 6,
+      "col": 37,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.Calc",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 6
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 8,
+      "col": 8,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.Calc",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 6
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 9,
+      "col": 8,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.Calc",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 6
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 13,
+      "col": 52,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.CalculateCharge",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 13
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 15,
+      "col": 8,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.CalculateCharge",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 13
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 16,
+      "col": 8,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.CalculateCharge",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 13
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 23,
+      "col": 8,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.Modify",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 21
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "exercises.ads",
+      "line": 24,
       "col": 8,
       "rule": "DEPENDS_WRONG",
       "severity": "info",
@@ -177,7 +234,7 @@
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 23
+            "line": 21
           }
         ]
       },
@@ -188,88 +245,8 @@
   ],
   "proof": [
     {
-      "file": "exercises.ads",
-      "line": 11,
-      "col": 6,
-      "rule": "VC_DISJOINT_CONTRACT_CASES",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Calc",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 30,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.ads",
-      "check_line": 11,
-      "check_col": 6,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.ads",
-      "line": 11,
-      "col": 6,
-      "rule": "VC_COMPLETE_CONTRACT_CASES",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Calc",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 30,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.ads",
-      "check_line": 11,
-      "check_col": 6,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
       "file": "exercises.adb",
-      "line": 9,
+      "line": 7,
       "col": 25,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
@@ -278,7 +255,7 @@
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 7
+            "line": 6
           }
         ]
       },
@@ -296,7 +273,7 @@
         }
       ],
       "check_file": "exercises.adb",
-      "check_line": 9,
+      "check_line": 7,
       "check_col": 25,
       "how_proved": "prover",
       "stats": {
@@ -309,8 +286,8 @@
     },
     {
       "file": "exercises.ads",
-      "line": 12,
-      "col": 37,
+      "line": 11,
+      "col": 44,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "entity": {
@@ -318,7 +295,7 @@
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 7
+            "line": 6
           }
         ]
       },
@@ -336,8 +313,8 @@
         }
       ],
       "check_file": "exercises.ads",
-      "check_line": 12,
-      "check_col": 37,
+      "check_line": 11,
+      "check_col": 44,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -349,198 +326,16 @@
     },
     {
       "file": "exercises.ads",
-      "line": 12,
-      "col": 20,
-      "rule": "VC_CONTRACT_CASE",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Calc",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 13,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.ads",
-      "check_line": 12,
-      "check_col": 20,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.ads",
-      "line": 13,
-      "col": 21,
-      "rule": "VC_CONTRACT_CASE",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Calc",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 7
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 13,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.ads",
-      "check_line": 13,
-      "check_col": 21,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 17,
-      "col": 27,
-      "rule": "VC_OVERFLOW_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.CalculateCharge",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 16
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 17,
-      "check_col": 27,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.ads",
-      "line": 20,
-      "col": 28,
-      "rule": "VC_OVERFLOW_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.CalculateCharge",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 16
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.ads",
-      "check_line": 20,
-      "check_col": 28,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.ads",
-      "line": 20,
+      "line": 11,
       "col": 14,
       "rule": "VC_POSTCONDITION",
       "severity": "info",
       "entity": {
-        "name": "exercises.CalculateCharge",
+        "name": "exercises.Calc",
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 16
+            "line": 6
           }
         ]
       },
@@ -549,7 +344,7 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Valid",
-              "steps": 5,
+              "steps": 13,
               "time": 0
             }
           },
@@ -558,7 +353,7 @@
         }
       ],
       "check_file": "exercises.ads",
-      "check_line": 20,
+      "check_line": 11,
       "check_col": 14,
       "how_proved": "prover",
       "stats": {
@@ -571,16 +366,16 @@
     },
     {
       "file": "exercises.adb",
-      "line": 23,
-      "col": 10,
+      "line": 15,
+      "col": 27,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "entity": {
-        "name": "exercises.Modify",
+        "name": "exercises.CalculateCharge",
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 23
+            "line": 13
           }
         ]
       },
@@ -598,7 +393,127 @@
         }
       ],
       "check_file": "exercises.adb",
-      "check_line": 23,
+      "check_line": 15,
+      "check_col": 27,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "exercises.ads",
+      "line": 18,
+      "col": 35,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.CalculateCharge",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 13
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "exercises.ads",
+      "check_line": 18,
+      "check_col": 35,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "exercises.ads",
+      "line": 18,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.CalculateCharge",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 13
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "exercises.ads",
+      "check_line": 18,
+      "check_col": 16,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "exercises.adb",
+      "line": 20,
+      "col": 10,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.Modify",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 21
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "exercises.adb",
+      "check_line": 20,
       "check_col": 10,
       "how_proved": "prover",
       "stats": {
@@ -611,7 +526,7 @@
     },
     {
       "file": "exercises.adb",
-      "line": 23,
+      "line": 20,
       "col": 10,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
@@ -620,7 +535,7 @@
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 23
+            "line": 21
           }
         ]
       },
@@ -649,7 +564,7 @@
         }
       ],
       "check_file": "exercises.adb",
-      "check_line": 23,
+      "check_line": 20,
       "check_col": 10,
       "how_proved": "prover",
       "stats": {
@@ -662,99 +577,8 @@
     },
     {
       "file": "exercises.ads",
-      "line": 27,
-      "col": 18,
-      "rule": "VC_OVERFLOW_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Modify",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 23
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.ads",
-      "check_line": 27,
-      "check_col": 18,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.ads",
-      "line": 27,
-      "col": 18,
-      "rule": "VC_INDEX_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.Modify",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 23
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.ads",
-      "check_line": 27,
-      "check_col": 18,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.ads",
       "line": 28,
-      "col": 43,
+      "col": 19,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "entity": {
@@ -762,7 +586,7 @@
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 23
+            "line": 21
           }
         ]
       },
@@ -781,7 +605,7 @@
       ],
       "check_file": "exercises.ads",
       "check_line": 28,
-      "check_col": 43,
+      "check_col": 19,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -793,8 +617,59 @@
     },
     {
       "file": "exercises.ads",
+      "line": 28,
+      "col": 19,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.Modify",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 21
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "exercises.ads",
+      "check_line": 28,
+      "check_col": 19,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "exercises.ads",
       "line": 26,
-      "col": 52,
+      "col": 28,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "entity": {
@@ -802,7 +677,7 @@
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 23
+            "line": 21
           }
         ]
       },
@@ -821,7 +696,7 @@
       ],
       "check_file": "exercises.ads",
       "check_line": 26,
-      "check_col": 52,
+      "check_col": 28,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -834,7 +709,7 @@
     {
       "file": "exercises.ads",
       "line": 26,
-      "col": 72,
+      "col": 66,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "entity": {
@@ -842,7 +717,7 @@
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 23
+            "line": 21
           }
         ]
       },
@@ -861,7 +736,7 @@
       ],
       "check_file": "exercises.ads",
       "check_line": 26,
-      "check_col": 72,
+      "check_col": 66,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -874,41 +749,19 @@
     {
       "file": "exercises.ads",
       "line": 27,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
+      "col": 28,
+      "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "entity": {
         "name": "exercises.Modify",
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 23
+            "line": 21
           }
         ]
       },
       "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 20,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
         {
           "proof_attempts": {
             "CVC4": {
@@ -923,470 +776,7 @@
       ],
       "check_file": "exercises.ads",
       "check_line": 27,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 32,
-      "col": 33,
-      "rule": "VC_OVERFLOW_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 358,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 32,
-      "check_col": 33,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 31,
-      "col": 41,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 31,
-      "check_col": 41,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 4,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 31,
-      "col": 76,
-      "rule": "VC_INDEX_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 31,
-      "check_col": 76,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 4,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 31,
-      "col": 99,
-      "rule": "VC_INDEX_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 31,
-      "check_col": 99,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 4,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 31,
-      "col": 109,
-      "rule": "VC_INDEX_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 19,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 31,
-      "check_col": 109,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 4,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 31,
-      "col": 102,
-      "rule": "VC_OVERFLOW_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 796,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 31,
-      "check_col": 102,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 31,
-      "col": 33,
-      "rule": "VC_LOOP_INVARIANT_PRESERV",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 1066,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 31,
-      "check_col": 33,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "exercises.adb",
-      "line": 31,
-      "col": 33,
-      "rule": "VC_LOOP_INVARIANT_INIT",
-      "severity": "info",
-      "entity": {
-        "name": "exercises.MaskSequence",
-        "sloc": [
-          {
-            "file": "exercises.ads",
-            "line": 30
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "exercises.adb",
-      "check_line": 31,
-      "check_col": 33,
+      "check_col": 28,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -1398,16 +788,16 @@
     },
     {
       "file": "exercises.ads",
-      "line": 34,
-      "col": 66,
+      "line": 27,
+      "col": 43,
       "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "entity": {
-        "name": "exercises.MaskSequence",
+        "name": "exercises.Modify",
         "sloc": [
           {
             "file": "exercises.ads",
-            "line": 30
+            "line": 21
           }
         ]
       },
@@ -1416,7 +806,47 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Valid",
-              "steps": 682,
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "exercises.ads",
+      "check_line": 27,
+      "check_col": 43,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "exercises.ads",
+      "line": 28,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.Modify",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 21
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
               "time": 0
             }
           },
@@ -1425,8 +855,48 @@
         }
       ],
       "check_file": "exercises.ads",
-      "check_line": 34,
-      "check_col": 66,
+      "check_line": 28,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "exercises.adb",
+      "line": 29,
+      "col": 33,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.MaskSequence",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 30
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "exercises.adb",
+      "check_line": 29,
+      "check_col": 33,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -1438,8 +908,48 @@
     },
     {
       "file": "exercises.ads",
-      "line": 34,
-      "col": 18,
+      "line": 38,
+      "col": 65,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "exercises.MaskSequence",
+        "sloc": [
+          {
+            "file": "exercises.ads",
+            "line": 30
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "exercises.ads",
+      "check_line": 38,
+      "check_col": 65,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "exercises.ads",
+      "line": 38,
+      "col": 14,
       "rule": "VC_POSTCONDITION",
       "severity": "info",
       "entity": {
@@ -1456,7 +966,7 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Valid",
-              "steps": 1081,
+              "steps": 5,
               "time": 0
             }
           },
@@ -1465,8 +975,8 @@
         }
       ],
       "check_file": "exercises.ads",
-      "check_line": 34,
-      "check_col": 18,
+      "check_line": 38,
+      "check_col": 14,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -1484,6 +994,54 @@
       "claim": {
         "predicate": "CLAIM_POST",
         "arg": {
+          "name": "exercises.Modify",
+          "sloc": [
+            {
+              "file": "exercises.ads",
+              "line": 21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "exercises.Modify",
+          "sloc": [
+            {
+              "file": "exercises.ads",
+              "line": 21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "exercises.Modify",
+          "sloc": [
+            {
+              "file": "exercises.ads",
+              "line": 21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
           "name": "exercises.MaskSequence",
           "sloc": [
             {
@@ -1532,43 +1090,11 @@
       "claim": {
         "predicate": "CLAIM_POST",
         "arg": {
-          "name": "exercises.Modify",
+          "name": "exercises.Calc",
           "sloc": [
             {
               "file": "exercises.ads",
-              "line": 23
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "exercises.Modify",
-          "sloc": [
-            {
-              "file": "exercises.ads",
-              "line": 23
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "exercises.Modify",
-          "sloc": [
-            {
-              "file": "exercises.ads",
-              "line": 23
+              "line": 6
             }
           ]
         }
@@ -1584,7 +1110,7 @@
           "sloc": [
             {
               "file": "exercises.ads",
-              "line": 7
+              "line": 6
             }
           ]
         }
@@ -1600,7 +1126,55 @@
           "sloc": [
             {
               "file": "exercises.ads",
-              "line": 7
+              "line": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "exercises.CalculateCharge",
+          "sloc": [
+            {
+              "file": "exercises.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "exercises.CalculateCharge",
+          "sloc": [
+            {
+              "file": "exercises.ads",
+              "line": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "exercises.CalculateCharge",
+          "sloc": [
+            {
+              "file": "exercises.ads",
+              "line": 13
             }
           ]
         }
@@ -1621,65 +1195,17 @@
           ]
         }
       }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "exercises.CalculateCharge",
-          "sloc": [
-            {
-              "file": "exercises.ads",
-              "line": 16
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "exercises.CalculateCharge",
-          "sloc": [
-            {
-              "file": "exercises.ads",
-              "line": 16
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "exercises.CalculateCharge",
-          "sloc": [
-            {
-              "file": "exercises.ads",
-              "line": 16
-            }
-          ]
-        }
-      }
     }
   ],
   "timings": {
-    "marking": 4.81280003441498E-04,
-    "globals (basic)": 3.26620996929705E-04,
-    "globals/properties (advanced)": 4.30785992648453E-04,
-    "flow analysis": 4.11083083599806E-03,
-    "codepeer results": 1.02399999377667E-05,
-    "init_why_sections": 7.45401019230485E-04,
-    "translation of standard": 3.31776100210845E-03,
-    "translation of compilation unit": 7.07795890048146E-03,
-    "proof": 2.97672057151794E+00
+    "marking": 4.47099999291822E-04,
+    "globals (basic)": 4.02800011215732E-04,
+    "globals/properties (advanced)": 5.83600020036101E-04,
+    "flow analysis": 4.83640003949404E-03,
+    "codepeer results": 7.49999981053406E-06,
+    "init_why_sections": 5.18599990755320E-04,
+    "translation of standard": 3.15449992194772E-03,
+    "translation of compilation unit": 4.48750006034970E-03,
+    "proof": 9.56383407115936E-01
   }
 }

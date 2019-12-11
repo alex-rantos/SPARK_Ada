@@ -8,44 +8,43 @@ P GP FX
 RN
 RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
-RV NO_IMPLEMENTATION_ATTRIBUTES
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U exercises%b		exercises.adb		7476ccb5 OO PK IL
+U exercises%b		exercises.adb		f1e1cb33 OO PK IL
 
-U exercises%s		exercises.ads		afa6d616 OO PK IL
+U exercises%s		exercises.ads		6b40c04d OO PK IL
 
-D exercises.ads		20191201192732 afa6d616 exercises%s
-D exercises.adb		20191201192704 dbd01aa3 exercises%b
+D exercises.ads		20191211004758 6b40c04d exercises%s
+D exercises.adb		20191210233906 9aa10b7e exercises%b
 D system.ads		20190518041256 32a08138 system%s
 G a Z
 X 1 exercises.ads
-1K9*exercises 37l5 37e14 2|1b14 37l5 37t14
-3I12*Size{integer} 4r30 28r20 33r29 34r32 2|30r16 31r46
-4A9*SmallArray(integer)<integer> 23r31 30r43 30r64 2|21r31 28r43 28r64
-7U14*Calc 7>19 7<37 2|4b14 12l8 12t12
-7i19 Cost{integer} 9r30 10r14 12r9 12r32 13r9 2|4b19 8r10 9r20
-7i37 Result{integer} 9r20 12r23 13r24 2|4b37 11m7
-16U14*CalculateCharge 16>30 16<52 2|14b14 18l8 18t23
-16i30 Quantity{integer} 18r30 19r13 19r48 20r30 2|14b30 17r29
-16i52 Charge{integer} 18r20 20r14 2|14b52 17m7
-23U14*Modify 23=21 23>43 23>46 2|21b14 24l8 24t14
-23a21 A{4A9} 25r20 25r26 27r15 28r53 28r60 2|21b21 23m7
-23i43 B{integer} 25r28 26r15 26r45 26r64 27r17 28r42 2|21b43 23r9
-23i46 C{integer} 25r30 26r30 26r53 26r74 27r19 28r44 2|21b46 23r11
-28i15 I{3I12} 28r38 28r55 28r66
-30U14*MaskSequence 30=28 30>55 2|28b14 34l8 34t20
-30a28 Target{4A9} 32r20 32r31 34r40 34r52 2|28b28 31r69 31r81 32m10 32r23
-30a55 Mask{4A9} 32r39 33r37 33r52 34r68 2|28b55 31r104 32r35
-33i24 I{3I12} 33r42 33r57
-34i27 I{3I12} 34r47 34r63 34r73
+1K9*exercises 40l5 40e14 2|1b14 33l5 33t14
+3I12*Size{integer} 4r30 26r50 26r87 27r49 34r33 34r63 35r33 38r28 2|28r16
+4A9*SmallArray(integer)<integer> 21r31 30r43 30r64 2|18r31 26r43 26r64
+6U14*Calc 6>19 6<37 2|3b14 10l8 10t12
+6i19 Cost{integer} 9r30 10r16 10r51 11r39 2|3b19 6r10 7r20
+6i37 Result{integer} 9r20 11r15 11r30 2|3b37 9m7
+13U14*CalculateCharge 13>30 13<52 2|12b14 16l8 16t23
+13i30 Quantity{integer} 16r30 17r16 17r51 18r26 2|12b30 15r29
+13i52 Charge{integer} 16r20 18r17 2|12b52 15m7
+21U14*Modify 21=21 21>43 21>46 2|18b14 21l8 21t14
+21a21 A{4A9} 24r20 24r26 28r16 2|18b21 20m7
+21i43 B{integer} 24r28 25r39 25r61 26r26 26r64 27r26 27r41 28r18 2|18b43
+. 20r9
+21i46 C{integer} 24r30 25r17 25r82 26r30 26r68 27r30 27r45 28r20 2|18b46
+. 20r11
+30U14*MaskSequence 30=28 30>55 2|26b14 31l8 31t20
+30a28 Target{4A9} 33r20 33r31 34r16 36r26 38r43 38r55 2|26b28 29m10 29r23
+30a55 Mask{4A9} 33r38 34r48 37r36 37r51 38r67 2|26b55 29r35
+35i28 I{3I12} 36r33 37r41 37r56
+38i23 I{3I12} 38r50 38r62 38r72
 X 2 exercises.adb
-4i61 Charge{integer} 7m7 9m10 11r17
-15i7 CostPence{integer} 17r17
-30i11 I{1|3I12} 31r62 32r17 32r30 32r40
-31i41 J{integer} 31r76 31r99 31r109
+4i7 Charge{integer} 7m10 9r17
+13i7 CostPence{integer} 15r17
+28i11 I{1|3I12} 29r17 29r30 29r40
 
 QQ SPARKVERSION 2019 (20190517)
 GG EK_DIRECT_CALLS exercises__calc 0
@@ -58,9 +57,9 @@ GG EK_DIRECT_CALLS exercises__masksequence 0
 GG EK_GLOBALS exercises__masksequence local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
 GG EK_DIRECT_CALLS exercises 0
 GG EK_GLOBALS exercises local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE exercises__masksequence FALSE FALSE FALSE FALSE TRUE exercises VISIBLE_PART
 GG EK_FLOW_SCOPE exercises__calc FALSE FALSE FALSE FALSE TRUE exercises VISIBLE_PART
 GG EK_FLOW_SCOPE exercises__calculatecharge FALSE FALSE FALSE FALSE TRUE exercises VISIBLE_PART
-GG EK_FLOW_SCOPE exercises__masksequence FALSE FALSE FALSE FALSE TRUE exercises VISIBLE_PART
-GG EK_FLOW_SCOPE exercises__modify FALSE FALSE FALSE FALSE TRUE exercises VISIBLE_PART
 GG EK_FLOW_SCOPE exercises TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE exercises__modify FALSE FALSE FALSE FALSE TRUE exercises VISIBLE_PART
 GG EK_END_MARKER
