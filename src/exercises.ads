@@ -22,19 +22,15 @@ package exercises with SPARK_Mode is
      with
        Global => null,
        Depends => (A => (A,B,C)),
-       Pre => ((C < Integer'First and B < Integer'First and B > Integer'Last and C > Integer'Last)
-               and then (B + C > Integer'First - Size'Last and B + C < Integer'Last + Size'Last)
-               and then (B + C > 0 and  B + C < Size'Last)) ,
+       Pre => ((C > 0  and then B < Integer'Last - C  and then B + C in Size'Range)
+               or (B > 0 and then C < Integer'Last - B and then B + C in Size'Range)),
      Post => ( A(B+C) = 40 );
 
    procedure MaskSequence (Target: in out SmallArray; Mask: in SmallArray)
      with
        Global => null,
        Depends => (Target => (Target,Mask)),
-       Pre => (Target'Length in Size'Range and Mask'Length in Size'Range and
-                  (for all I in Size'Range =>
-                         Target(I) < Integer'Last
-                         and then (Mask(I) = 1 or Mask(I) = 0))),
-     Post => (for all I in Size'Range => (Target(I) = Target(I) * Mask(I)));
+       Pre => (for all I in Size'Range => (Mask(I) = 1 or Mask(I) = 0)),
+       Post => (for all I in Size'Range => (Target(I) = Target'Old(I) or Target(I) = 0));
 
 end exercises;

@@ -25,8 +25,10 @@ package body exercises with SPARK_Mode is
    -- Mask element is 0, and keeps its original value otherwise.
    procedure MaskSequence (Target: in out SmallArray; Mask: in SmallArray) is
    begin
-      for I in Size'Range loop
+      for I in Size loop
          Target(I) := Target(I) * Mask(I);
+         pragma Loop_Invariant(for all J in Size'First .. I =>
+                              (Target(J) = Target'Loop_Entry(J) or Target(J) = 0));
       end loop;
    end MaskSequence;
 
